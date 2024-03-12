@@ -174,3 +174,4 @@ C:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\El
 C:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRin.FA87AB7F.Up2Date
 C:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.exe
 C:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.pdb
+C:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.Register.resources

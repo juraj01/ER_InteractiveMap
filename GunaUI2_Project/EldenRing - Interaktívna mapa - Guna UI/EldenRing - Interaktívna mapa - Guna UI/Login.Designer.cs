@@ -280,7 +280,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.NameTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.NameTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.NameTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.NameTextBox.FillColor = System.Drawing.Color.Black;
+            this.NameTextBox.FillColor = System.Drawing.Color.Transparent;
             this.NameTextBox.FocusedState.BorderColor = System.Drawing.Color.Goldenrod;
             this.NameTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.NameTextBox.ForeColor = System.Drawing.Color.White;
