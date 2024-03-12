@@ -123,7 +123,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.LoginButton.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
             this.LoginButton.Location = new System.Drawing.Point(47, 562);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(268, 35);
+            this.LoginButton.Size = new System.Drawing.Size(273, 35);
             this.LoginButton.TabIndex = 10;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseTransparentBackground = true;
@@ -142,9 +142,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.RegisterButton.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.RegisterButton.ForeColor = System.Drawing.Color.White;
             this.RegisterButton.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.RegisterButton.Location = new System.Drawing.Point(47, 634);
+            this.RegisterButton.Location = new System.Drawing.Point(47, 639);
             this.RegisterButton.Name = "RegisterButton";
-            this.RegisterButton.Size = new System.Drawing.Size(268, 35);
+            this.RegisterButton.Size = new System.Drawing.Size(273, 35);
             this.RegisterButton.TabIndex = 12;
             this.RegisterButton.Text = "Register";
             this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
@@ -173,7 +173,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.PasswordTextBox.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.PasswordTextBox.PlaceholderText = "";
             this.PasswordTextBox.SelectedText = "";
-            this.PasswordTextBox.Size = new System.Drawing.Size(268, 36);
+            this.PasswordTextBox.Size = new System.Drawing.Size(273, 36);
             this.PasswordTextBox.TabIndex = 8;
             this.PasswordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.PasswordTextBox.TextChanged += new System.EventHandler(this.PasswordTextBox_TextChanged);
@@ -184,7 +184,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.RegisterLabel.BackColor = System.Drawing.Color.Transparent;
             this.RegisterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.RegisterLabel.ForeColor = System.Drawing.Color.Silver;
-            this.RegisterLabel.Location = new System.Drawing.Point(56, 611);
+            this.RegisterLabel.Location = new System.Drawing.Point(56, 616);
             this.RegisterLabel.Name = "RegisterLabel";
             this.RegisterLabel.Size = new System.Drawing.Size(190, 20);
             this.RegisterLabel.TabIndex = 13;
@@ -220,7 +220,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.NameLabel.BackColor = System.Drawing.Color.Transparent;
             this.NameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.NameLabel.ForeColor = System.Drawing.Color.Silver;
-            this.NameLabel.Location = new System.Drawing.Point(56, 302);
+            this.NameLabel.Location = new System.Drawing.Point(56, 281);
             this.NameLabel.Name = "NameLabel";
             this.NameLabel.Size = new System.Drawing.Size(55, 20);
             this.NameLabel.TabIndex = 5;
@@ -232,7 +232,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.EmailLabel.BackColor = System.Drawing.Color.Transparent;
             this.EmailLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.EmailLabel.ForeColor = System.Drawing.Color.Silver;
-            this.EmailLabel.Location = new System.Drawing.Point(56, 372);
+            this.EmailLabel.Location = new System.Drawing.Point(56, 362);
             this.EmailLabel.Name = "EmailLabel";
             this.EmailLabel.Size = new System.Drawing.Size(57, 20);
             this.EmailLabel.TabIndex = 7;
@@ -256,14 +256,14 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.EmailTextBox.ForeColor = System.Drawing.Color.White;
             this.EmailTextBox.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
             this.EmailTextBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.EmailTextBox.Location = new System.Drawing.Point(47, 395);
+            this.EmailTextBox.Location = new System.Drawing.Point(47, 385);
             this.EmailTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.EmailTextBox.Name = "EmailTextBox";
             this.EmailTextBox.PasswordChar = '\0';
             this.EmailTextBox.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.EmailTextBox.PlaceholderText = "";
             this.EmailTextBox.SelectedText = "";
-            this.EmailTextBox.Size = new System.Drawing.Size(268, 36);
+            this.EmailTextBox.Size = new System.Drawing.Size(273, 36);
             this.EmailTextBox.TabIndex = 6;
             this.EmailTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.EmailTextBox.TextChanged += new System.EventHandler(this.EmailTextBox_TextChanged);
@@ -285,7 +285,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.NameTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.NameTextBox.ForeColor = System.Drawing.Color.White;
             this.NameTextBox.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.NameTextBox.Location = new System.Drawing.Point(47, 325);
+            this.NameTextBox.Location = new System.Drawing.Point(47, 304);
             this.NameTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NameTextBox.Name = "NameTextBox";
             this.NameTextBox.PasswordChar = '\0';
@@ -293,7 +293,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.NameTextBox.PlaceholderText = "";
             this.NameTextBox.SelectedText = "";
             this.NameTextBox.SelectionStart = 4;
-            this.NameTextBox.Size = new System.Drawing.Size(268, 36);
+            this.NameTextBox.Size = new System.Drawing.Size(273, 36);
             this.NameTextBox.TabIndex = 4;
             this.NameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NameTextBox.TextChanged += new System.EventHandler(this.NameTextBox_TextChanged);

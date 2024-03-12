@@ -63,11 +63,12 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.MinimalizeButton.Click += MinimalizeButton_Click;
             this.MaximalizeButton.Click += MaximalizeButton_Click;
             this.ExitButton.Click += ExitButton_Click;
-        }
 
-        private void MainWindow_Resize(object sender, EventArgs e)
+        }
+        private void NameBoxSize(object sender, EventArgs e)
         {
-            
+            NameTextBox.Width = this.Width / 4;
+            NameTextBox.Height = this.Height / 19;
         }
 
         private void TextBox_Click(object sender, EventArgs e)
@@ -87,7 +88,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             {
                 Point pos = PointToClient(Cursor.Position);
 
-                if (pos.X >= ClientSize.Width - 16 && pos.Y >= ClientSize.Height - 1)
+                if (pos.X >= ClientSize.Width - 16 && pos.Y >= ClientSize.Height - 9)
                 {
                     m.Result = (IntPtr)HTBOTTOMRIGHT;
                 }
@@ -98,7 +99,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             }
         }
 
-
+        //handling of begining of resize:
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -107,13 +108,13 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                 SendMessage(this.Handle, 0x112, (IntPtr)0xf012, IntPtr.Zero);
             }
         }
-
+        //Suspending form when resizing:
         protected override void OnResizeBegin(EventArgs e)
         {
             base.OnResizeBegin(e);
             this.SuspendLayout();
         }
-
+        //Resuming form when resizing ends:
         protected override void OnResizeEnd(EventArgs e)
         {
             base.OnResizeEnd(e);
@@ -128,37 +129,33 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         {
 
         }
-
-        private void NameTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        //handling that text boxes are empty when clicked:
         private void NameTextBox_Click(object sender, EventArgs e)
         {
             this.NameTextBox.Text = "";
         }
-
-        private void EmailTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void EmailTextBox_Click(object sender, EventArgs e)
         {
             this.EmailTextBox.Text = "";
         }
-
-        private void PasswordTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void PasswordTextBox_Click(object sender, EventArgs e)
         {
             this.PasswordTextBox.Text = "";
         }
+        //functions of text boxes when their content changes:
+        private void EmailTextBox_TextChanged(object sender, EventArgs e)
+        {
 
+        }
+        private void PasswordTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void NameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        //top bar logic
         private void MinimalizeButton_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
