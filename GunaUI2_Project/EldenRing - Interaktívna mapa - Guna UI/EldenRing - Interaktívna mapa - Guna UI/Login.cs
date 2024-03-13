@@ -31,6 +31,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         {
             InitializeComponent();
             InitializeFormSettings();
+            InitializeEventHandlers();
 
             this.UpperBorderPanel.MouseDown += UpperBorderPanel_MouseDown;
             this.UpperBorderPanel.MouseMove += UpperBorderPanel_MouseMove;
