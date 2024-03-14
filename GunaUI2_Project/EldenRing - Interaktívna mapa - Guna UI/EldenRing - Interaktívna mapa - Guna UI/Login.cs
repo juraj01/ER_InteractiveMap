@@ -3,6 +3,7 @@ using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace EldenRing___Interaktívna_mapa___Guna_UI
 {
@@ -32,13 +33,6 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             InitializeComponent();
             InitializeFormSettings();
             InitializeEventHandlers();
-
-            this.UpperBorderPanel.MouseDown += UpperBorderPanel_MouseDown;
-            this.UpperBorderPanel.MouseMove += UpperBorderPanel_MouseMove;
-            this.UpperBorderPanel.MouseUp += UpperBorderPanel_MouseUp;
-            this.NameTextBox.Click += NameTextBox_Click;
-            this.PasswordTextBox.Click += PasswordTextBox_Click;
-            this.EmailTextBox.Click += EmailTextBox_Click;
         }
 
         private void InitializeFormSettings()
@@ -57,9 +51,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.UpperBorderPanel.MouseMove += UpperBorderPanel_MouseMove;
             this.UpperBorderPanel.MouseUp += UpperBorderPanel_MouseUp;
             //TextBoxes event handlers:
-            this.NameTextBox.Click += TextBox_Click;
-            this.PasswordTextBox.Click += TextBox_Click;
-            this.EmailTextBox.Click += TextBox_Click;
+            this.NameTextBox.Click += NameTextBox_Click;
+            this.PasswordTextBox.Click += PasswordTextBox_Click;
+            this.EmailTextBox.Click += EmailTextBox_Click;
             //Buttons event handlers:
             this.MinimalizeButton.Click += MinimalizeButton_Click;
             this.MaximalizeButton.Click += MaximalizeButton_Click;
@@ -72,12 +66,19 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             NameTextBox.Height = this.Height / 19;
         }
 
-        private void TextBox_Click(object sender, EventArgs e)
+        private void NameTextBox_Click()
         {
-            var textbox = sender as TextBox;
-            textbox?.Clear();
+            this.NameTextBox.Text = " ";
         }
-        
+        private void EmailTextBox_Click()
+        {
+            this.NameTextBox.Text = " ";
+        }
+        private void PasswordTextBox_Click()
+        {
+            this.NameTextBox.Text = " ";
+        }
+
 
         protected override void WndProc(ref Message m)
         {
@@ -128,7 +129,8 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         }
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-
+            Register register = new Register();
+            register.Show();
         }
         //handling that text boxes are empty when clicked:
         private void NameTextBox_Click(object sender, EventArgs e)

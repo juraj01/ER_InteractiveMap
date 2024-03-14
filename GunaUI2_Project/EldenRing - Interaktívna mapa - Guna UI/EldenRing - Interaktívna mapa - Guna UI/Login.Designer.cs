@@ -146,7 +146,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.RegisterButton.Name = "RegisterButton";
             this.RegisterButton.Size = new System.Drawing.Size(273, 35);
             this.RegisterButton.TabIndex = 12;
-            this.RegisterButton.Text = "Register";
+            this.RegisterButton.Text = "Registration";
             this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
             // PasswordTextBox
@@ -186,9 +186,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.RegisterLabel.ForeColor = System.Drawing.Color.Silver;
             this.RegisterLabel.Location = new System.Drawing.Point(56, 616);
             this.RegisterLabel.Name = "RegisterLabel";
-            this.RegisterLabel.Size = new System.Drawing.Size(190, 20);
+            this.RegisterLabel.Size = new System.Drawing.Size(212, 20);
             this.RegisterLabel.TabIndex = 13;
-            this.RegisterLabel.Text = "If you don\'t have account:";
+            this.RegisterLabel.Text = "If you don\'t have an account:";
             // 
             // PasswordLabel
             // 
@@ -210,9 +210,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.LoginLabel.ForeColor = System.Drawing.Color.Silver;
             this.LoginLabel.Location = new System.Drawing.Point(56, 539);
             this.LoginLabel.Name = "LoginLabel";
-            this.LoginLabel.Size = new System.Drawing.Size(311, 20);
+            this.LoginLabel.Size = new System.Drawing.Size(333, 20);
             this.LoginLabel.TabIndex = 11;
-            this.LoginLabel.Text = "If you have account and filled boxes above:";
+            this.LoginLabel.Text = "If you have an account and filled boxes above:";
             // 
             // NameLabel
             // 
@@ -318,7 +318,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.LoginRegister_Background;
+            this.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.LoginBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1091, 708);
             this.Controls.Add(this.UpperBorderPanel);
