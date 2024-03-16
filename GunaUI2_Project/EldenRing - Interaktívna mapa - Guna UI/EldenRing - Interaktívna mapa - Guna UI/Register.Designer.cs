@@ -209,6 +209,7 @@
             this.RegistrationLabel.Size = new System.Drawing.Size(158, 20);
             this.RegistrationLabel.TabIndex = 21;
             this.RegistrationLabel.Text = "Fill in all boxes below:";
+            this.RegistrationLabel.Click += new System.EventHandler(this.RegistrationLabel_Click);
             // 
             // PasswordLabel
             // 

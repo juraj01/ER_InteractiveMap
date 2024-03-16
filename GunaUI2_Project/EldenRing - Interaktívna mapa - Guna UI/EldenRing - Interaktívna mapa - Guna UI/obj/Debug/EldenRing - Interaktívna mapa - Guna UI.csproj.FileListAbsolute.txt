@@ -232,3 +232,54 @@ D:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\El
 D:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.csproj.CopyComplete
 D:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.exe
 D:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.pdb
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\EldenRing - Interaktívna mapa - Guna UI.exe.config
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\EldenRing - Interaktívna mapa - Guna UI.exe
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\EldenRing - Interaktívna mapa - Guna UI.pdb
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\BouncyCastle.Cryptography.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\Google.Protobuf.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\Guna.UI2.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\K4os.Compression.LZ4.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\K4os.Hash.xxHash.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\MySql.Data.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\MySqlConnector.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Buffers.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.IO.Pipelines.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Memory.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Numerics.Vectors.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\ZstdSharp.dll
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\BouncyCastle.Cryptography.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\Google.Protobuf.pdb
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\Google.Protobuf.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\K4os.Compression.LZ4.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\K4os.Hash.xxHash.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\MySql.Data.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\MySqlConnector.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Buffers.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.IO.Pipelines.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Memory.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Numerics.Vectors.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.csproj.AssemblyReference.cache
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.Login.resources
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.resources
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.Register.resources
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.csproj.GenerateResource.cache
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.csproj.CoreCompileInputs.cache
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.csproj.CopyComplete
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.exe
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.pdb

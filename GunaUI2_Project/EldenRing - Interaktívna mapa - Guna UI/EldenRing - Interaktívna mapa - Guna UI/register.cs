@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Data.SqlClient;
 
 namespace EldenRing___Interaktívna_mapa___Guna_UI
 {
@@ -120,6 +121,10 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             }
         }
 
+        private void RegistrationLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     public class DatabaseManager
     {
@@ -198,3 +203,48 @@ namespace RegistraciaDatabazy
         }
     }
 }*/
+
+/*
+using System;
+using System.Data.SqlClient;
+
+namespace VasProjeckt
+{
+    public class RegistraciaService
+    {
+        private readonly string connectionString;
+
+        public RegistraciaService(string connectionString)
+        {
+            this.connectionString = connectionString;
+        }
+
+        public void ZaregistrujPouzivatela(string meno, string heslo)
+        {
+            // Pripravenie príkazu pre vloženie nového používateľa do databázy
+            string insertCommand = "INSERT INTO Pouzivatelia (Meno, Heslo) VALUES (@Meno, @Heslo)";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(insertCommand, connection))
+                {
+                    // Nastavenie hodnôt parametrov
+                    command.Parameters.AddWithValue("@Meno", meno);
+                    command.Parameters.AddWithValue("@Heslo", heslo);
+
+                    try
+                    {
+                        // Otvorenie spojenia a vykonanie príkazu
+                        connection.Open();
+                        command.ExecuteNonQuery();
+                        Console.WriteLine("Používateľ bol úspešne zaregistrovaný.");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Chyba pri registrácii používateľa: " + ex.Message);
+                    }
+                }
+            }
+        }
+    }
+}
