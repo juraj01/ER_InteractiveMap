@@ -35,9 +35,9 @@
             this.RegisterButton = new Guna.UI2.WinForms.Guna2Button();
             this.PasswordTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.NameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.EmailTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.ConfirmPasswordTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.RegistrationLabel = new System.Windows.Forms.Label();
+            this.PasswordLabel = new System.Windows.Forms.Label();
             this.UpperBorderPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +52,7 @@
             this.UpperBorderPanel.ForeColor = System.Drawing.Color.Transparent;
             this.UpperBorderPanel.Location = new System.Drawing.Point(0, 0);
             this.UpperBorderPanel.Name = "UpperBorderPanel";
-            this.UpperBorderPanel.Size = new System.Drawing.Size(412, 29);
+            this.UpperBorderPanel.Size = new System.Drawing.Size(385, 29);
             this.UpperBorderPanel.TabIndex = 0;
             // 
             // ExitButton
@@ -69,7 +69,7 @@
             this.ExitButton.FillColor = System.Drawing.Color.Transparent;
             this.ExitButton.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ExitButton.ForeColor = System.Drawing.Color.Black;
-            this.ExitButton.Location = new System.Drawing.Point(372, 0);
+            this.ExitButton.Location = new System.Drawing.Point(345, 0);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(40, 29);
             this.ExitButton.TabIndex = 4;
@@ -88,7 +88,7 @@
             this.MinimalizeButton.FillColor = System.Drawing.Color.Transparent;
             this.MinimalizeButton.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MinimalizeButton.ForeColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.Location = new System.Drawing.Point(331, 0);
+            this.MinimalizeButton.Location = new System.Drawing.Point(304, 0);
             this.MinimalizeButton.Name = "MinimalizeButton";
             this.MinimalizeButton.Size = new System.Drawing.Size(40, 29);
             this.MinimalizeButton.TabIndex = 6;
@@ -106,11 +106,12 @@
             this.RegisterButton.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.RegisterButton.ForeColor = System.Drawing.Color.White;
             this.RegisterButton.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.RegisterButton.Location = new System.Drawing.Point(68, 353);
+            this.RegisterButton.Location = new System.Drawing.Point(50, 352);
             this.RegisterButton.Name = "RegisterButton";
             this.RegisterButton.Size = new System.Drawing.Size(273, 35);
             this.RegisterButton.TabIndex = 13;
             this.RegisterButton.Text = "Register";
+            this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
             // PasswordTextBox
             // 
@@ -119,7 +120,7 @@
             this.PasswordTextBox.BorderColor = System.Drawing.Color.DarkGray;
             this.PasswordTextBox.BorderRadius = 17;
             this.PasswordTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.PasswordTextBox.DefaultText = "Password";
+            this.PasswordTextBox.DefaultText = "";
             this.PasswordTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.PasswordTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.PasswordTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -129,7 +130,7 @@
             this.PasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.PasswordTextBox.ForeColor = System.Drawing.Color.White;
             this.PasswordTextBox.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.PasswordTextBox.Location = new System.Drawing.Point(68, 229);
+            this.PasswordTextBox.Location = new System.Drawing.Point(50, 225);
             this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.PasswordChar = '\0';
@@ -157,7 +158,7 @@
             this.NameTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.NameTextBox.ForeColor = System.Drawing.Color.White;
             this.NameTextBox.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.NameTextBox.Location = new System.Drawing.Point(68, 133);
+            this.NameTextBox.Location = new System.Drawing.Point(50, 147);
             this.NameTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NameTextBox.Name = "NameTextBox";
             this.NameTextBox.PasswordChar = '\0';
@@ -169,35 +170,6 @@
             this.NameTextBox.TabIndex = 14;
             this.NameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // EmailTextBox
-            // 
-            this.EmailTextBox.AutoRoundedCorners = true;
-            this.EmailTextBox.BackColor = System.Drawing.Color.Transparent;
-            this.EmailTextBox.BorderColor = System.Drawing.Color.DarkGray;
-            this.EmailTextBox.BorderRadius = 17;
-            this.EmailTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.EmailTextBox.DefaultText = "E-mail";
-            this.EmailTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.EmailTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.EmailTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.EmailTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.EmailTextBox.FillColor = System.Drawing.Color.Black;
-            this.EmailTextBox.FocusedState.BorderColor = System.Drawing.Color.Goldenrod;
-            this.EmailTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.EmailTextBox.ForeColor = System.Drawing.Color.White;
-            this.EmailTextBox.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.EmailTextBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.EmailTextBox.Location = new System.Drawing.Point(68, 181);
-            this.EmailTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.EmailTextBox.Name = "EmailTextBox";
-            this.EmailTextBox.PasswordChar = '\0';
-            this.EmailTextBox.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.EmailTextBox.PlaceholderText = "";
-            this.EmailTextBox.SelectedText = "";
-            this.EmailTextBox.Size = new System.Drawing.Size(273, 36);
-            this.EmailTextBox.TabIndex = 16;
-            this.EmailTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // ConfirmPasswordTextBox
             // 
             this.ConfirmPasswordTextBox.AutoRoundedCorners = true;
@@ -205,7 +177,7 @@
             this.ConfirmPasswordTextBox.BorderColor = System.Drawing.Color.DarkGray;
             this.ConfirmPasswordTextBox.BorderRadius = 17;
             this.ConfirmPasswordTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.ConfirmPasswordTextBox.DefaultText = "ConfirmPassword";
+            this.ConfirmPasswordTextBox.DefaultText = "";
             this.ConfirmPasswordTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.ConfirmPasswordTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.ConfirmPasswordTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -215,7 +187,7 @@
             this.ConfirmPasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ConfirmPasswordTextBox.ForeColor = System.Drawing.Color.White;
             this.ConfirmPasswordTextBox.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.ConfirmPasswordTextBox.Location = new System.Drawing.Point(68, 277);
+            this.ConfirmPasswordTextBox.Location = new System.Drawing.Point(50, 273);
             this.ConfirmPasswordTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ConfirmPasswordTextBox.Name = "ConfirmPasswordTextBox";
             this.ConfirmPasswordTextBox.PasswordChar = '\0';
@@ -232,11 +204,23 @@
             this.RegistrationLabel.BackColor = System.Drawing.Color.Transparent;
             this.RegistrationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.RegistrationLabel.ForeColor = System.Drawing.Color.Silver;
-            this.RegistrationLabel.Location = new System.Drawing.Point(22, 84);
+            this.RegistrationLabel.Location = new System.Drawing.Point(12, 100);
             this.RegistrationLabel.Name = "RegistrationLabel";
             this.RegistrationLabel.Size = new System.Drawing.Size(158, 20);
             this.RegistrationLabel.TabIndex = 21;
             this.RegistrationLabel.Text = "Fill in all boxes below:";
+            // 
+            // PasswordLabel
+            // 
+            this.PasswordLabel.AutoSize = true;
+            this.PasswordLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.PasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.PasswordLabel.ForeColor = System.Drawing.Color.Silver;
+            this.PasswordLabel.Location = new System.Drawing.Point(12, 201);
+            this.PasswordLabel.Name = "PasswordLabel";
+            this.PasswordLabel.Size = new System.Drawing.Size(269, 20);
+            this.PasswordLabel.TabIndex = 22;
+            this.PasswordLabel.Text = "Enter Password and confirm it below:";
             // 
             // Register
             // 
@@ -245,12 +229,12 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.App_Logo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(412, 430);
+            this.ClientSize = new System.Drawing.Size(385, 430);
+            this.Controls.Add(this.PasswordLabel);
             this.Controls.Add(this.RegistrationLabel);
             this.Controls.Add(this.ConfirmPasswordTextBox);
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.NameTextBox);
-            this.Controls.Add(this.EmailTextBox);
             this.Controls.Add(this.RegisterButton);
             this.Controls.Add(this.UpperBorderPanel);
             this.DoubleBuffered = true;
@@ -273,8 +257,8 @@
         private Guna.UI2.WinForms.Guna2Button RegisterButton;
         private Guna.UI2.WinForms.Guna2TextBox PasswordTextBox;
         private Guna.UI2.WinForms.Guna2TextBox NameTextBox;
-        private Guna.UI2.WinForms.Guna2TextBox EmailTextBox;
         private Guna.UI2.WinForms.Guna2TextBox ConfirmPasswordTextBox;
         private System.Windows.Forms.Label RegistrationLabel;
+        private System.Windows.Forms.Label PasswordLabel;
     }
 }

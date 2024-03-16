@@ -24,7 +24,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private Point lastCursorPosition;
         bool IsValidEmail = false;
         string name;
-        string email;
+        //string email;
         string password;
         const int _spacer = 9;
 
@@ -33,6 +33,8 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             InitializeComponent();
             InitializeFormSettings();
             InitializeEventHandlers();
+
+            PasswordTextBox.UseSystemPasswordChar = true;
         }
 
         private void InitializeFormSettings()
@@ -53,7 +55,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             //TextBoxes event handlers:
             this.NameTextBox.Click += NameTextBox_Click;
             this.PasswordTextBox.Click += PasswordTextBox_Click;
-            this.EmailTextBox.Click += EmailTextBox_Click;
+            //this.EmailTextBox.Click += EmailTextBox_Click;
             //Buttons event handlers:
             this.MinimalizeButton.Click += MinimalizeButton_Click;
             this.MaximalizeButton.Click += MaximalizeButton_Click;
@@ -130,17 +132,23 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private void RegisterButton_Click(object sender, EventArgs e)
         {
             Register register = new Register();
+            register.FormClosed += Register_FormClosed;
             register.Show();
+            this.Hide();
+        }
+        private void Register_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
         }
         //handling that text boxes are empty when clicked:
         private void NameTextBox_Click(object sender, EventArgs e)
         {
             this.NameTextBox.Text = "";
         }
-        private void EmailTextBox_Click(object sender, EventArgs e)
+        /*private void EmailTextBox_Click(object sender, EventArgs e)
         {
             this.EmailTextBox.Text = "";
-        }
+        }*/
         private void PasswordTextBox_Click(object sender, EventArgs e)
         {
             this.PasswordTextBox.Text = "";
@@ -171,14 +179,15 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
         private void MaximalizeButton_Click(object sender, EventArgs e)
         {
-            if (this.WindowState == FormWindowState.Maximized)
+            /*if (this.WindowState == FormWindowState.Maximized)
             {
                 this.WindowState = FormWindowState.Normal;
             }
             else
             {
                 this.WindowState = FormWindowState.Maximized;
-            }
+            }*/
+            this.WindowState = (this.WindowState == FormWindowState.Maximized) ? FormWindowState.Normal : FormWindowState.Maximized;
         }
 
         private void UpperBorderPanel_MouseDown(object sender, MouseEventArgs e)

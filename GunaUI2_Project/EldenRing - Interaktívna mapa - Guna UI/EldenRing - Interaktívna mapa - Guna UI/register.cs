@@ -17,6 +17,8 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             InitializeComponent();
             InitializeEventHandlers();
 
+            PasswordTextBox.UseSystemPasswordChar = true;
+            ConfirmPasswordTextBox.UseSystemPasswordChar = true;
         }
 
         private void InitializeEventHandlers()
@@ -24,7 +26,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             //TextBoxes event handlers:
             this.NameTextBox.Click += NameTextBox_Click;
             this.PasswordTextBox.Click += PasswordTextBox_Click;
-            this.EmailTextBox.Click += EmailTextBox_Click;
+            //this.EmailTextBox.Click += EmailTextBox_Click;
             this.ConfirmPasswordTextBox.Click += ConfirmPasswordTextBox_Click;
             //UpperBorderPanel event handlers:
             this.UpperBorderPanel.MouseDown += UpperBorderPanel_MouseDown;
@@ -33,23 +35,25 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             //Buttons event handlers:
             this.MinimalizeButton.Click += MinimalizeButton_Click;
             this.ExitButton.Click += ExitButton_Click;
-        }
+            this.RegisterButton.Click += RegisterButton_Click;
+            
+        } 
 
         private void NameTextBox_Click(object sender, EventArgs e)
         {
-            this.NameTextBox.Text = " ";
+            this.NameTextBox.Text = "";
         }
-        private void EmailTextBox_Click(object sender, EventArgs e)
+        /*private void EmailTextBox_Click(object sender, EventArgs e)
         {
             this.EmailTextBox.Text = " ";
-        }
+        }*/
         private void PasswordTextBox_Click(object sender, EventArgs e)
         {
-            this.PasswordTextBox.Text = " ";
+            this.PasswordTextBox.Text = "";
         }
         private void ConfirmPasswordTextBox_Click(object sender, EventArgs e)
         {
-            this.ConfirmPasswordTextBox.Text = " ";
+            this.ConfirmPasswordTextBox.Text = "";
         }
         //top bar logic
         private void MinimalizeButton_Click(object sender, EventArgs e)
@@ -96,12 +100,32 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                 isDragging = false;
             }
         }
+
+        private void RegisterButton_Click(object sender, EventArgs e)
+        {
+            string username = NameTextBox.Text.Trim();
+            //string email = EmailTextBox.Text.Trim();
+            string password = PasswordTextBox.Text.Trim();
+
+            DatabaseManager dbManager = new DatabaseManager();
+            bool success = dbManager.RegisterUser(username, /*email,*/ password);
+
+            if (success)
+            {
+                MessageBox.Show("Registration was successful");
+            }
+            else
+            {
+                MessageBox.Show("Registration was unsuccessfull");
+            }
+        }
+
     }
     public class DatabaseManager
     {
         private string MySQLConnectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=userdatabase";
 
-        public bool RegisterUser(string username, string email, string password)
+        public bool RegisterUser(string username, /*string email,*/ string password)
         {
             using (MySqlConnection connection = new MySqlConnection(MySQLConnectionString))
             {
@@ -112,7 +136,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                     using (MySqlCommand command = new MySqlCommand(query, connection))
                     {
                         command.Parameters.AddWithValue("@username", username);
-                        command.Parameters.AddWithValue("@email", email);
+                        //command.Parameters.AddWithValue("@email", email);
                         command.Parameters.AddWithValue("@password", password);
 
                         int rowsAffected = command.ExecuteNonQuery();
