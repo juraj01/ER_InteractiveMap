@@ -43,6 +43,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.NameLabel = new System.Windows.Forms.Label();
             this.NameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.UpperBorderPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.UpperBorderPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -256,6 +257,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             // 
             // UpperBorderPanel
             // 
+            this.UpperBorderPanel.AutoSize = true;
             this.UpperBorderPanel.BackColor = System.Drawing.Color.Transparent;
             this.UpperBorderPanel.BorderColor = System.Drawing.Color.DimGray;
             this.UpperBorderPanel.BorderThickness = 1;
@@ -266,8 +268,18 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.UpperBorderPanel.ForeColor = System.Drawing.Color.Transparent;
             this.UpperBorderPanel.Location = new System.Drawing.Point(0, 0);
             this.UpperBorderPanel.Name = "UpperBorderPanel";
-            this.UpperBorderPanel.Size = new System.Drawing.Size(1091, 30);
+            this.UpperBorderPanel.Size = new System.Drawing.Size(1091, 32);
             this.UpperBorderPanel.TabIndex = 16;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Login;
+            this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2Panel1.Location = new System.Drawing.Point(423, 73);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(251, 85);
+            this.guna2Panel1.TabIndex = 17;
             // 
             // Login
             // 
@@ -277,6 +289,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.LoginBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1091, 708);
+            this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.UpperBorderPanel);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.RegisterButton);
@@ -311,6 +324,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private Guna.UI2.WinForms.Guna2Button MinimalizeButton;
         private Guna.UI2.WinForms.Guna2Button MaximalizeButton;
         private Guna.UI2.WinForms.Guna2Panel UpperBorderPanel;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
     }
 }
 

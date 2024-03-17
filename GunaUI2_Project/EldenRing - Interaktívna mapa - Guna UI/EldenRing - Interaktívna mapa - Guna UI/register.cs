@@ -5,6 +5,7 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace EldenRing___Interaktívna_mapa___Guna_UI
 {
@@ -25,7 +26,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private void InitializeEventHandlers()
         {
             //TextBoxes event handlers:
-            this.NameTextBox.Click += NameTextBox_Click;
+            this.UsernameTextBox.Click += NameTextBox_Click;
             this.PasswordTextBox.Click += PasswordTextBox_Click;
             //this.EmailTextBox.Click += EmailTextBox_Click;
             this.ConfirmPasswordTextBox.Click += ConfirmPasswordTextBox_Click;
@@ -40,9 +41,18 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             
         } 
 
+        public class UsernameValidation
+        {
+            public bool IsUsernameValid(string username)
+            {
+                string pattern = @"^[a-zA-Z0-9]*$";
+                return Regex.IsMatch(username, pattern);
+            }
+        }
+
         private void NameTextBox_Click(object sender, EventArgs e)
         {
-            this.NameTextBox.Text = "";
+            this.UsernameTextBox.Text = "";
         }
         /*private void EmailTextBox_Click(object sender, EventArgs e)
         {
@@ -104,20 +114,55 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-            string username = NameTextBox.Text.Trim();
+            UsernameValidation validation = new UsernameValidation();
+            string username = UsernameTextBox.Text.Trim();
             //string email = EmailTextBox.Text.Trim();
             string password = PasswordTextBox.Text.Trim();
 
-            DatabaseManager dbManager = new DatabaseManager();
-            bool success = dbManager.RegisterUser(username, /*email,*/ password);
+            RegistrationService dbManager = new RegistrationService("Server=localhost;UID=root;Database=registrationdatabase");
 
-            if (success)
+            if (this.UsernameTextBox.Text != null)
             {
-                MessageBox.Show("Registration was successful");
+                if (this.UsernameTextBox.Text.Length >= 4)
+                {
+                    if (validation.IsUsernameValid(username))
+                    {
+                        if (this.PasswordTextBox.Text != null)
+                        {
+                            if (this.PasswordTextBox.Text.Length >= 8)
+                            {
+                                if (this.PasswordTextBox.Text == this.ConfirmPasswordTextBox.Text)
+                                {
+                                    dbManager.RegisterUser(username, password);
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Your password and confirmation password don't match");
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show("Your password should be at lest 8 characters long");
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("You forgot to enter your password");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Username cannot contain special characters");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Enter username that is at least 4 letters long");
+                }
             }
             else
             {
-                MessageBox.Show("Registration was unsuccessfull");
+                MessageBox.Show("You forgot to enter your username");
             }
         }
 
@@ -126,32 +171,41 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
         }
     }
-    public class DatabaseManager
+    
+    public class RegistrationService
     {
-        private string MySQLConnectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=userdatabase";
+        private readonly string connectionString;
 
-        public bool RegisterUser(string username, /*string email,*/ string password)
+        public RegistrationService(string connectionString)
         {
-            using (MySqlConnection connection = new MySqlConnection(MySQLConnectionString))
-            {
-                try
-                {
-                    connection.Open();
-                    string query = "INSERT INTO users (username, email, password) VALUES (@username, @email, @password)";
-                    using (MySqlCommand command = new MySqlCommand(query, connection))
-                    {
-                        command.Parameters.AddWithValue("@username", username);
-                        //command.Parameters.AddWithValue("@email", email);
-                        command.Parameters.AddWithValue("@password", password);
+            this.connectionString = connectionString;
+        }
 
-                        int rowsAffected = command.ExecuteNonQuery();
-                        return rowsAffected > 0; // If rows were affected then registration was successfull
-                    }
-                }
-                catch (Exception ex)
+        public void RegisterUser(string username, string password)
+        {
+            // Pripravenie príkazu pre vloženie nového používateľa do databázy
+            //string insertCommand = $"INSERT INTO users (username, password) VALUES (@username, @password)";
+            string insertCommand = $"INSERT INTO users (username, password) VALUES('{username}', '{password}');";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(insertCommand, connection))
                 {
-                    Console.WriteLine("Error: " + ex.Message);
-                    return false; // Registration failed
+                    // Nastavenie hodnôt parametrov
+                    //command.Parameters.AddWithValue("@username", username);
+                    //command.Parameters.AddWithValue("@password", password);
+
+                    try
+                    {
+                        // Otvorenie spojenia a vykonanie príkazu
+                        connection.Open();
+                        command.ExecuteNonQuery();
+                        Console.WriteLine("User was successfully registered.");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("An error occured: " + ex.ToString());
+                    }
                 }
             }
         }
@@ -204,47 +258,34 @@ namespace RegistraciaDatabazy
     }
 }*/
 
-/*
-using System;
-using System.Data.SqlClient;
 
-namespace VasProjeckt
-{
-    public class RegistraciaService
+/*public class DatabaseManager
     {
-        private readonly string connectionString;
+        private string MySQLConnectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=registrationdatabase";
 
-        public RegistraciaService(string connectionString)
+        public bool RegisterUser(string username, string email, string password)
         {
-            this.connectionString = connectionString;
-        }
-
-        public void ZaregistrujPouzivatela(string meno, string heslo)
-        {
-            // Pripravenie príkazu pre vloženie nového používateľa do databázy
-            string insertCommand = "INSERT INTO Pouzivatelia (Meno, Heslo) VALUES (@Meno, @Heslo)";
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (MySqlConnection connection = new MySqlConnection(MySQLConnectionString))
             {
-                using (SqlCommand command = new SqlCommand(insertCommand, connection))
+                try
                 {
-                    // Nastavenie hodnôt parametrov
-                    command.Parameters.AddWithValue("@Meno", meno);
-                    command.Parameters.AddWithValue("@Heslo", heslo);
+                    connection.Open();
+                    string query = "INSERT INTO users (username, password) VALUES (@username, @password)";
+                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@username", username);
+                        //command.Parameters.AddWithValue("@email", email);
+                        command.Parameters.AddWithValue("@password", password);
 
-                    try
-                    {
-                        // Otvorenie spojenia a vykonanie príkazu
-                        connection.Open();
-                        command.ExecuteNonQuery();
-                        Console.WriteLine("Používateľ bol úspešne zaregistrovaný.");
+                        int rowsAffected = command.ExecuteNonQuery();
+                        return rowsAffected > 0; // If rows were affected then registration was successfull
                     }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine("Chyba pri registrácii používateľa: " + ex.Message);
-                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                    return false; // Registration failed
                 }
             }
         }
-    }
-}
+    }*/

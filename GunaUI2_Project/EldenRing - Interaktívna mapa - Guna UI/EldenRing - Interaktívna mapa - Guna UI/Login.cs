@@ -23,7 +23,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private bool isDragging = false;
         private Point lastCursorPosition;
         bool IsValidEmail = false;
-        string name;
+        string username;
         //string email;
         string password;
         const int _spacer = 9;

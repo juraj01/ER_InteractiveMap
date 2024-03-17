@@ -209,5 +209,14 @@
   <ItemGroup>
     <None Include="Resources\LoginBackground.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nadpis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Register.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Minimalize" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Minimalize.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Maximalize - final" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maximalize - final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LoginRegister Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LoginRegister Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,17 +136,23 @@
   <data name="App Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="LoginBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoginBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit " type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exit .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Minimalize - final" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Minimalize - final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="stiahnuť" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stiahnuť.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Maximalize - final" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Maximalize - final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Minimalize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minimalize.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Minimalize - prototyp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Minimalize - prototyp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Nadpis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nadpis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="elden-ring-pc-games-playstation-4-playstation-5-xbox-one-3840x5120-7712" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\elden-ring-pc-games-playstation-4-playstation-5-xbox-one-3840x5120-7712.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,10 +166,13 @@
   <data name="1151249" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1151249.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Exit " type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Exit .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Minimalize - prototyp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minimalize - prototyp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LoginBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LoginBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Register" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Register.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
