@@ -6,12 +6,20 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using System.Data.SqlClient;
 using System.Text.RegularExpressions;
+using System.Diagnostics;
+using MySqlConnector;
+using Mysqlx;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using System.Runtime.CompilerServices;
 
 namespace EldenRing___Interaktívna_mapa___Guna_UI
 {
 
     public partial class Register : Form
     {
+        private string confirmationPassword;
+        private string username;
+        private string password;
         private bool isDragging = false;
         private Point lastCursorPosition;
         public Register()
@@ -41,14 +49,13 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             
         } 
 
-        public class UsernameValidation
+       
+        public bool IsUsernameValid(string username)
         {
-            public bool IsUsernameValid(string username)
-            {
-                string pattern = @"^[a-zA-Z0-9]*$";
-                return Regex.IsMatch(username, pattern);
-            }
+             string pattern = @"^[a-zA-Z0-9]*$";
+             return Regex.IsMatch(username, pattern);
         }
+        
 
         private void NameTextBox_Click(object sender, EventArgs e)
         {
@@ -114,40 +121,37 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-            UsernameValidation validation = new UsernameValidation();
-            string username = UsernameTextBox.Text.Trim();
+            username = UsernameTextBox.Text.Trim();
             //string email = EmailTextBox.Text.Trim();
-            string password = PasswordTextBox.Text.Trim();
+            password = PasswordTextBox.Text.Trim();
+            confirmationPassword = ConfirmPasswordTextBox.Text.Trim();
 
-            RegistrationService dbManager = new RegistrationService("Server=localhost;UID=root;Database=registrationdatabase");
+            connecttomysql connect = new connecttomysql();
 
-            if (this.UsernameTextBox.Text != null)
+            if (username == null || password == null || confirmationPassword == null)
             {
-                if (this.UsernameTextBox.Text.Length >= 4)
+                MessageBox.Show("Fill out blank boxes");
+            }
+            else if (username != null && username.Length >= 4)
+            {
+                if (connect.IsValueExists("users", "name", username))
                 {
-                    if (validation.IsUsernameValid(username))
+                    if (IsUsernameValid(username))
                     {
-                        if (this.PasswordTextBox.Text != null)
+                        if (password != null && password.Length >= 8)
                         {
-                            if (this.PasswordTextBox.Text.Length >= 8)
+                            if (password == confirmationPassword)
                             {
-                                if (this.PasswordTextBox.Text == this.ConfirmPasswordTextBox.Text)
-                                {
-                                    dbManager.RegisterUser(username, password);
-                                }
-                                else
-                                {
-                                    MessageBox.Show("Your password and confirmation password don't match");
-                                }
+                                connect.InsertDataIntoUsers(username, password);
                             }
                             else
                             {
-                                MessageBox.Show("Your password should be at lest 8 characters long");
+                                MessageBox.Show("Your password and confirmation password don't match");
                             }
                         }
                         else
                         {
-                            MessageBox.Show("You forgot to enter your password");
+                            MessageBox.Show("You forgot to enter your password or your password is less than 8 characters long");
                         }
                     }
                     else
@@ -157,13 +161,14 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                 }
                 else
                 {
-                    MessageBox.Show("Enter username that is at least 4 letters long");
+                    MessageBox.Show("This username already exist");
                 }
             }
             else
             {
-                MessageBox.Show("You forgot to enter your username");
+                MessageBox.Show("You forgot to enter your username or your username is less than 4 letters long");
             }
+            
         }
 
         private void RegistrationLabel_Click(object sender, EventArgs e)
@@ -172,7 +177,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         }
     }
     
-    public class RegistrationService
+    /*public class RegistrationService
     {
         private readonly string connectionString;
 
@@ -183,18 +188,12 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
         public void RegisterUser(string username, string password)
         {
-            // Pripravenie príkazu pre vloženie nového používateľa do databázy
-            //string insertCommand = $"INSERT INTO users (username, password) VALUES (@username, @password)";
             string insertCommand = $"INSERT INTO users (username, password) VALUES('{username}', '{password}');";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 using (SqlCommand command = new SqlCommand(insertCommand, connection))
                 {
-                    // Nastavenie hodnôt parametrov
-                    //command.Parameters.AddWithValue("@username", username);
-                    //command.Parameters.AddWithValue("@password", password);
-
                     try
                     {
                         // Otvorenie spojenia a vykonanie príkazu
@@ -209,9 +208,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                 }
             }
         }
-    }
+    }*/
 }
-
+    
 /*using System;
 using System.Data.SqlClient;
 
