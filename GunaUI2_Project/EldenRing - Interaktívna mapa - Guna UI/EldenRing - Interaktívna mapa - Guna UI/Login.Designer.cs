@@ -31,9 +31,6 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.MaximalizeButton = new Guna.UI2.WinForms.Guna2Button();
-            this.ExitButton = new Guna.UI2.WinForms.Guna2Button();
-            this.MinimalizeButton = new Guna.UI2.WinForms.Guna2Button();
             this.LoginButton = new Guna.UI2.WinForms.Guna2Button();
             this.RegisterButton = new Guna.UI2.WinForms.Guna2Button();
             this.PasswordTextBox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -44,68 +41,11 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.NameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.UpperBorderPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.ExitButton = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.MaximizeButton = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.MinimalizeButton = new Guna.UI2.WinForms.Guna2ControlBox();
             this.UpperBorderPanel.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // MaximalizeButton
-            // 
-            this.MaximalizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MaximalizeButton.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Maximalize___final;
-            this.MaximalizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.MaximalizeButton.BorderColor = System.Drawing.Color.Transparent;
-            this.MaximalizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MaximalizeButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.MaximalizeButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.MaximalizeButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.MaximalizeButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.MaximalizeButton.FillColor = System.Drawing.Color.Transparent;
-            this.MaximalizeButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.MaximalizeButton.ForeColor = System.Drawing.Color.Transparent;
-            this.MaximalizeButton.Location = new System.Drawing.Point(1009, 0);
-            this.MaximalizeButton.Name = "MaximalizeButton";
-            this.MaximalizeButton.Size = new System.Drawing.Size(40, 29);
-            this.MaximalizeButton.TabIndex = 2;
-            this.MaximalizeButton.Click += new System.EventHandler(this.MaximalizeButton_Click);
-            // 
-            // ExitButton
-            // 
-            this.ExitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ExitButton.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Exit___final_;
-            this.ExitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ExitButton.BorderColor = System.Drawing.Color.Transparent;
-            this.ExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ExitButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ExitButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ExitButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ExitButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ExitButton.FillColor = System.Drawing.Color.Transparent;
-            this.ExitButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ExitButton.ForeColor = System.Drawing.Color.Black;
-            this.ExitButton.Location = new System.Drawing.Point(1050, 0);
-            this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(40, 29);
-            this.ExitButton.TabIndex = 1;
-            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
-            // 
-            // MinimalizeButton
-            // 
-            this.MinimalizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MinimalizeButton.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Minimalize___final;
-            this.MinimalizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.MinimalizeButton.BorderColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MinimalizeButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.MinimalizeButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.MinimalizeButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.MinimalizeButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.MinimalizeButton.FillColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.MinimalizeButton.ForeColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.Location = new System.Drawing.Point(968, 0);
-            this.MinimalizeButton.Name = "MinimalizeButton";
-            this.MinimalizeButton.Size = new System.Drawing.Size(40, 29);
-            this.MinimalizeButton.TabIndex = 3;
-            this.MinimalizeButton.Click += new System.EventHandler(this.MinimalizeButton_Click);
             // 
             // LoginButton
             // 
@@ -260,9 +200,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.UpperBorderPanel.BackColor = System.Drawing.Color.Transparent;
             this.UpperBorderPanel.BorderColor = System.Drawing.Color.DimGray;
             this.UpperBorderPanel.BorderThickness = 1;
-            this.UpperBorderPanel.Controls.Add(this.ExitButton);
             this.UpperBorderPanel.Controls.Add(this.MinimalizeButton);
-            this.UpperBorderPanel.Controls.Add(this.MaximalizeButton);
+            this.UpperBorderPanel.Controls.Add(this.ExitButton);
+            this.UpperBorderPanel.Controls.Add(this.MaximizeButton);
             this.UpperBorderPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.UpperBorderPanel.ForeColor = System.Drawing.Color.Transparent;
             this.UpperBorderPanel.Location = new System.Drawing.Point(0, 0);
@@ -279,6 +219,50 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(385, 125);
             this.guna2Panel1.TabIndex = 17;
+            // 
+            // ExitButton
+            // 
+            this.ExitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ExitButton.BackColor = System.Drawing.Color.Transparent;
+            this.ExitButton.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Exit___final_;
+            this.ExitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ExitButton.BorderColor = System.Drawing.Color.Transparent;
+            this.ExitButton.FillColor = System.Drawing.Color.Transparent;
+            this.ExitButton.IconColor = System.Drawing.Color.Transparent;
+            this.ExitButton.Location = new System.Drawing.Point(1046, 0);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(45, 29);
+            this.ExitButton.TabIndex = 18;
+            // 
+            // MaximizeButton
+            // 
+            this.MaximizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.MaximizeButton.BackColor = System.Drawing.Color.Transparent;
+            this.MaximizeButton.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Maximalize___final;
+            this.MaximizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.MaximizeButton.BorderColor = System.Drawing.Color.Transparent;
+            this.MaximizeButton.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.MaximizeButton.FillColor = System.Drawing.Color.Transparent;
+            this.MaximizeButton.IconColor = System.Drawing.Color.Transparent;
+            this.MaximizeButton.Location = new System.Drawing.Point(1004, 0);
+            this.MaximizeButton.Name = "MaximizeButton";
+            this.MaximizeButton.Size = new System.Drawing.Size(45, 29);
+            this.MaximizeButton.TabIndex = 19;
+            // 
+            // MinimalizeButton
+            // 
+            this.MinimalizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.MinimalizeButton.BackColor = System.Drawing.Color.Transparent;
+            this.MinimalizeButton.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Minimalize___final;
+            this.MinimalizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.MinimalizeButton.BorderColor = System.Drawing.Color.Transparent;
+            this.MinimalizeButton.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.MinimalizeButton.FillColor = System.Drawing.Color.Transparent;
+            this.MinimalizeButton.IconColor = System.Drawing.Color.Transparent;
+            this.MinimalizeButton.Location = new System.Drawing.Point(962, 0);
+            this.MinimalizeButton.Name = "MinimalizeButton";
+            this.MinimalizeButton.Size = new System.Drawing.Size(45, 29);
+            this.MinimalizeButton.TabIndex = 18;
             // 
             // Login
             // 
@@ -319,11 +303,11 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private System.Windows.Forms.Label NameLabel;
         private System.Windows.Forms.Label LoginLabel;
         private System.Windows.Forms.Label RegisterLabel;
-        private Guna.UI2.WinForms.Guna2Button ExitButton;
-        private Guna.UI2.WinForms.Guna2Button MinimalizeButton;
-        private Guna.UI2.WinForms.Guna2Button MaximalizeButton;
         private Guna.UI2.WinForms.Guna2Panel UpperBorderPanel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2ControlBox ExitButton;
+        private Guna.UI2.WinForms.Guna2ControlBox MaximizeButton;
+        private Guna.UI2.WinForms.Guna2ControlBox MinimalizeButton;
     }
 }
 

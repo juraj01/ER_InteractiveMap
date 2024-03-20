@@ -51,9 +51,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.UpperBorderPanel.MouseMove += UpperBorderPanel_MouseMove;
             this.UpperBorderPanel.MouseUp += UpperBorderPanel_MouseUp;
             //Buttons event handlers:
-            this.MinimalizeButton.Click += MinimalizeButton_Click;
+            /*this.MinimalizeButton.Click += MinimalizeButton_Click;
             this.MaximalizeButton.Click += MaximalizeButton_Click;
-            this.ExitButton.Click += ExitButton_Click;
+            this.ExitButton.Click += ExitButton_Click;*/
 
         }
         private void NameBoxSize(object sender, EventArgs e)
@@ -161,7 +161,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
         }
         //top bar logic
-        private void MinimalizeButton_Click(object sender, EventArgs e)
+        /*private void MinimalizeButton_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
@@ -173,16 +173,16 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
         private void MaximalizeButton_Click(object sender, EventArgs e)
         {
-            /*if (this.WindowState == FormWindowState.Maximized)
+            if (this.WindowState == FormWindowState.Maximized)
             {
                 this.WindowState = FormWindowState.Normal;
             }
             else
             {
                 this.WindowState = FormWindowState.Maximized;
-            }*/
-            this.WindowState = (this.WindowState == FormWindowState.Maximized) ? FormWindowState.Normal : FormWindowState.Maximized;
-        }
+            }
+            //this.WindowState = (this.WindowState == FormWindowState.Maximized) ? FormWindowState.Normal : FormWindowState.Maximized;
+        }*/
 
         private void UpperBorderPanel_MouseDown(object sender, MouseEventArgs e)
         {

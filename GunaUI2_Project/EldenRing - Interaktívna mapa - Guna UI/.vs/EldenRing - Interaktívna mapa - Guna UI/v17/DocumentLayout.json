@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|c:\\er_interactivemap\\gunaui2_project\\eldenring - interakt\u00EDvna mapa - guna ui\\eldenring - interakt\u00EDvna mapa - guna ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|c:\\er_interactivemap\\gunaui2_project\\eldenring - interakt\u00EDvna mapa - guna ui\\eldenring - interakt\u00EDvna mapa - guna ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\conncecttomysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\conncecttomysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|c:\\er_interactivemap\\gunaui2_project\\eldenring - interakt\u00EDvna mapa - guna ui\\eldenring - interakt\u00EDvna mapa - guna ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -19,28 +27,20 @@
       "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|c:\\er_interactivemap\\gunaui2_project\\eldenring - interakt\u00EDvna mapa - guna ui\\eldenring - interakt\u00EDvna mapa - guna ui\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|c:\\er_interactivemap\\gunaui2_project\\eldenring - interakt\u00EDvna mapa - guna ui\\eldenring - interakt\u00EDvna mapa - guna ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\conncecttomysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|solutionrelative:eldenring - interakt\u00EDvna mapa - guna ui\\conncecttomysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08C95B14-B29B-46DF-B43D-AAFB60CF65F3}|EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI.csproj|C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\eldenring - interakt\u00EDvna mapa - guna ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,37 +58,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.cs",
-              "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.cs",
-              "ToolTip": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.cs",
-              "RelativeToolTip": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T19:00:19.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Main.Designer.cs",
               "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.Designer.cs",
               "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.Designer.cs",
               "ToolTip": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.Designer.cs",
               "RelativeToolTip": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.Designer.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwJUAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwIsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T18:59:47.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.cs",
               "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.cs",
@@ -100,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Register.cs [Design]",
               "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\register.cs",
               "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\register.cs",
@@ -112,7 +99,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\register.cs",
+              "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\register.cs",
+              "ToolTip": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\register.cs",
+              "RelativeToolTip": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\register.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwD4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T15:04:21.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.cs",
               "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.cs",
@@ -124,46 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.cs",
               "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.cs",
               "ToolTip": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.cs",
               "RelativeToolTip": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-24T15:36:19.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\register.cs",
-              "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\register.cs",
-              "ToolTip": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\register.cs",
-              "RelativeToolTip": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\register.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAiwIIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T15:04:21.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.Designer.cs",
-              "ToolTip": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.Designer.cs",
-              "RelativeToolTip": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.Designer.cs",
-              "ViewState": "AQIAAAsBAAAAAAAAAAAowCMBAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T15:45:49.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Register.Designer.cs",
               "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Register.Designer.cs",
               "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Register.Designer.cs",
@@ -176,15 +150,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.Designer.cs",
+              "ToolTip": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.Designer.cs",
+              "RelativeToolTip": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Login.Designer.cs",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAowBMBAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:45:49.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "conncectToMysql.cs",
               "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\conncectToMysql.cs",
               "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\conncectToMysql.cs",
               "ToolTip": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\conncectToMysql.cs",
               "RelativeToolTip": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\conncectToMysql.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA7wCkAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T15:28:55.546Z"
+              "WhenOpened": "2024-03-18T15:28:55.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.cs",
+              "RelativeDocumentMoniker": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.cs",
+              "ToolTip": "C:\\ER_InteractiveMap\\GunaUI2_Project\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.cs",
+              "RelativeToolTip": "EldenRing - Interakt\u00EDvna mapa - Guna UI\\Main.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T19:00:19.038Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

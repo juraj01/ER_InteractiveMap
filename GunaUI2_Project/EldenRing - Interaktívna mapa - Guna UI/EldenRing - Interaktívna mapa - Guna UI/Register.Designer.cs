@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
             this.UpperBorderPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.ExitButton = new Guna.UI2.WinForms.Guna2Button();
-            this.MinimalizeButton = new Guna.UI2.WinForms.Guna2Button();
             this.RegisterButton = new Guna.UI2.WinForms.Guna2Button();
             this.PasswordTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.UsernameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -39,6 +37,8 @@
             this.PasswordLabel = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.UsernameLabel = new System.Windows.Forms.Label();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.UpperBorderPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,52 +47,14 @@
             this.UpperBorderPanel.BackColor = System.Drawing.Color.Transparent;
             this.UpperBorderPanel.BorderColor = System.Drawing.Color.DimGray;
             this.UpperBorderPanel.BorderThickness = 1;
-            this.UpperBorderPanel.Controls.Add(this.ExitButton);
-            this.UpperBorderPanel.Controls.Add(this.MinimalizeButton);
+            this.UpperBorderPanel.Controls.Add(this.guna2ControlBox1);
+            this.UpperBorderPanel.Controls.Add(this.guna2ControlBox2);
             this.UpperBorderPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.UpperBorderPanel.ForeColor = System.Drawing.Color.Transparent;
             this.UpperBorderPanel.Location = new System.Drawing.Point(0, 0);
             this.UpperBorderPanel.Name = "UpperBorderPanel";
             this.UpperBorderPanel.Size = new System.Drawing.Size(410, 29);
             this.UpperBorderPanel.TabIndex = 0;
-            // 
-            // ExitButton
-            // 
-            this.ExitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ExitButton.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Exit___final_;
-            this.ExitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ExitButton.BorderColor = System.Drawing.Color.Transparent;
-            this.ExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ExitButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ExitButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ExitButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ExitButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ExitButton.FillColor = System.Drawing.Color.Transparent;
-            this.ExitButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ExitButton.ForeColor = System.Drawing.Color.Black;
-            this.ExitButton.Location = new System.Drawing.Point(370, -1);
-            this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(40, 29);
-            this.ExitButton.TabIndex = 4;
-            // 
-            // MinimalizeButton
-            // 
-            this.MinimalizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MinimalizeButton.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Minimalize___final;
-            this.MinimalizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.MinimalizeButton.BorderColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MinimalizeButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.MinimalizeButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.MinimalizeButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.MinimalizeButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.MinimalizeButton.FillColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.MinimalizeButton.ForeColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.Location = new System.Drawing.Point(330, -1);
-            this.MinimalizeButton.Name = "MinimalizeButton";
-            this.MinimalizeButton.Size = new System.Drawing.Size(40, 29);
-            this.MinimalizeButton.TabIndex = 6;
             // 
             // RegisterButton
             // 
@@ -232,6 +194,35 @@
             this.UsernameLabel.TabIndex = 24;
             this.UsernameLabel.Text = "Enter original username:";
             // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox1.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Minimalize___final;
+            this.guna2ControlBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2ControlBox1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox1.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(322, 0);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox1.TabIndex = 25;
+            // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox2.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Exit___final_;
+            this.guna2ControlBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2ControlBox2.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox2.Location = new System.Drawing.Point(365, 0);
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox2.TabIndex = 26;
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -263,8 +254,6 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel UpperBorderPanel;
-        private Guna.UI2.WinForms.Guna2Button ExitButton;
-        private Guna.UI2.WinForms.Guna2Button MinimalizeButton;
         private Guna.UI2.WinForms.Guna2Button RegisterButton;
         private Guna.UI2.WinForms.Guna2TextBox PasswordTextBox;
         private Guna.UI2.WinForms.Guna2TextBox UsernameTextBox;
@@ -272,5 +261,7 @@
         private System.Windows.Forms.Label PasswordLabel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.Label UsernameLabel;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
     }
 }

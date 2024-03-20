@@ -38,9 +38,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.UpperBorderPanel.MouseMove += UpperBorderPanel_MouseMove;
             this.UpperBorderPanel.MouseUp += UpperBorderPanel_MouseUp;
             //Buttons event handlers:
-            this.MinimalizeButton.Click += MinimalizeButton_Click;
+            /*this.MinimalizeButton.Click += MinimalizeButton_Click;
             this.ExitButton.Click += ExitButton_Click;
-            this.RegisterButton.Click += RegisterButton_Click;
+            this.RegisterButton.Click += RegisterButton_Click;*/
             
         } 
 
@@ -52,7 +52,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         }
 
         //top bar logic
-        private void MinimalizeButton_Click(object sender, EventArgs e)
+       /* private void MinimalizeButton_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
@@ -60,7 +60,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private void ExitButton_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
+        }*/
 
         private void UpperBorderPanel_MouseDown(object sender, MouseEventArgs e)
         {
