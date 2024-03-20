@@ -25,7 +25,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         }
 
        
-        public bool IsValueExists(string tableName, string columnName, string valueToCheck)
+        public bool IsValueExistsName(string tableName, string columnName, string valueToCheck)
         {
             using (MySqlConnection conn = new MySqlConnection(ConnectionString))
             {
@@ -35,6 +35,25 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                 using (MySqlCommand cmd = new MySqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@ValueToCheck", valueToCheck);
+
+                    int count = Convert.ToInt32(cmd.ExecuteScalar());
+
+                    return count > 0;
+                }
+            }
+        }
+
+        public bool IsValueExistsLogin(string tableName, string column1, string column2, string value1, string value2)
+        {
+            using (MySqlConnection conn = new MySqlConnection(ConnectionString))
+            {
+                conn.Open();
+
+                string query = $"SELECT COUNT(*) FROM {tableName} WHERE {column1} = @Value1 AND {column2} = @Value2";
+                using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Value1", value1);
+                    cmd.Parameters.AddWithValue("@Value2", value2);
 
                     int count = Convert.ToInt32(cmd.ExecuteScalar());
 

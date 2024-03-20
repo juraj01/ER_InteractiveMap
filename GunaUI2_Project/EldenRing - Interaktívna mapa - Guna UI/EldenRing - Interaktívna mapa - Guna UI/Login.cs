@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Drawing.Text;
 
 namespace EldenRing___Interaktívna_mapa___Guna_UI
 {
@@ -23,9 +24,6 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private bool isDragging = false;
         private Point lastCursorPosition;
         bool IsValidEmail = false;
-        string username;
-        //string email;
-        string password;
         const int _spacer = 9;
 
         public Login()
@@ -52,10 +50,6 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.UpperBorderPanel.MouseDown += UpperBorderPanel_MouseDown;
             this.UpperBorderPanel.MouseMove += UpperBorderPanel_MouseMove;
             this.UpperBorderPanel.MouseUp += UpperBorderPanel_MouseUp;
-            //TextBoxes event handlers:
-            this.NameTextBox.Click += NameTextBox_Click;
-            this.PasswordTextBox.Click += PasswordTextBox_Click;
-            //this.EmailTextBox.Click += EmailTextBox_Click;
             //Buttons event handlers:
             this.MinimalizeButton.Click += MinimalizeButton_Click;
             this.MaximalizeButton.Click += MaximalizeButton_Click;
@@ -66,19 +60,6 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         {
             NameTextBox.Width = this.Width / 4;
             NameTextBox.Height = this.Height / 19;
-        }
-
-        private void NameTextBox_Click()
-        {
-            this.NameTextBox.Text = " ";
-        }
-        private void EmailTextBox_Click()
-        {
-            this.NameTextBox.Text = " ";
-        }
-        private void PasswordTextBox_Click()
-        {
-            this.NameTextBox.Text = " ";
         }
 
 
@@ -127,7 +108,34 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
+            string username = NameTextBox.Text.Trim();
+            string password = PasswordTextBox.Text.Trim();
 
+            connecttomysql connectLogin = new connecttomysql();
+
+            if (username == null || password == null)
+            {
+                MessageBox.Show("Fall all blank boxes");
+            }
+            else 
+            {
+                if (connectLogin.IsValueExistsName("users", "name", username))
+                {
+                    if (connectLogin.IsValueExistsLogin("users", "name", "password", username, password))
+                    {
+                        MessageBox.Show("Login was successfull");
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Password doesn't match your username");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Username doesn't exist");
+                }
+            }
         }
         private void RegisterButton_Click(object sender, EventArgs e)
         {
@@ -140,20 +148,6 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         {
             this.Show();
         }
-        //handling that text boxes are empty when clicked:
-        private void NameTextBox_Click(object sender, EventArgs e)
-        {
-            this.NameTextBox.Text = "";
-        }
-        /*private void EmailTextBox_Click(object sender, EventArgs e)
-        {
-            this.EmailTextBox.Text = "";
-        }*/
-        private void PasswordTextBox_Click(object sender, EventArgs e)
-        {
-            this.PasswordTextBox.Text = "";
-        }
-        //functions of text boxes when their content changes:
         private void EmailTextBox_TextChanged(object sender, EventArgs e)
         {
 

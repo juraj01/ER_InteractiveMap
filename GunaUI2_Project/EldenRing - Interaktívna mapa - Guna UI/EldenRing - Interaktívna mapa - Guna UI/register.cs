@@ -33,11 +33,6 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
         private void InitializeEventHandlers()
         {
-            //TextBoxes event handlers:
-            this.UsernameTextBox.Click += NameTextBox_Click;
-            this.PasswordTextBox.Click += PasswordTextBox_Click;
-            //this.EmailTextBox.Click += EmailTextBox_Click;
-            this.ConfirmPasswordTextBox.Click += ConfirmPasswordTextBox_Click;
             //UpperBorderPanel event handlers:
             this.UpperBorderPanel.MouseDown += UpperBorderPanel_MouseDown;
             this.UpperBorderPanel.MouseMove += UpperBorderPanel_MouseMove;
@@ -55,24 +50,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
              string pattern = @"^[a-zA-Z0-9]*$";
              return Regex.IsMatch(username, pattern);
         }
-        
 
-        private void NameTextBox_Click(object sender, EventArgs e)
-        {
-            this.UsernameTextBox.Text = "";
-        }
-        /*private void EmailTextBox_Click(object sender, EventArgs e)
-        {
-            this.EmailTextBox.Text = " ";
-        }*/
-        private void PasswordTextBox_Click(object sender, EventArgs e)
-        {
-            this.PasswordTextBox.Text = "";
-        }
-        private void ConfirmPasswordTextBox_Click(object sender, EventArgs e)
-        {
-            this.ConfirmPasswordTextBox.Text = "";
-        }
         //top bar logic
         private void MinimalizeButton_Click(object sender, EventArgs e)
         {
@@ -126,15 +104,19 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             password = PasswordTextBox.Text.Trim();
             confirmationPassword = ConfirmPasswordTextBox.Text.Trim();
 
-            connecttomysql connect = new connecttomysql();
+            connecttomysql connectRegister = new connecttomysql();
 
             if (username == null || password == null || confirmationPassword == null)
             {
-                MessageBox.Show("Fill out blank boxes");
+                MessageBox.Show("Fill all blank boxes");
             }
             else if (username != null && username.Length >= 4)
             {
-                if (connect.IsValueExists("users", "name", username))
+                if (connectRegister.IsValueExistsName("users", "name", username))
+                {
+                    MessageBox.Show("This username already exist");
+                }
+                else
                 {
                     if (IsUsernameValid(username))
                     {
@@ -142,7 +124,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                         {
                             if (password == confirmationPassword)
                             {
-                                connect.InsertDataIntoUsers(username, password);
+                                connectRegister.InsertDataIntoUsers(username, password);
+                                MessageBox.Show("Registration was successfull");
+                                this.Close();
                             }
                             else
                             {
@@ -158,10 +142,6 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                     {
                         MessageBox.Show("Username cannot contain special characters");
                     }
-                }
-                else
-                {
-                    MessageBox.Show("This username already exist");
                 }
             }
             else

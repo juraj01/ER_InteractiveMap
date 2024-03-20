@@ -61,9 +61,10 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.MaximalizeButton.FillColor = System.Drawing.Color.Transparent;
             this.MaximalizeButton.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MaximalizeButton.ForeColor = System.Drawing.Color.Transparent;
-            this.MaximalizeButton.Location = new System.Drawing.Point(1009, 0);
+            this.MaximalizeButton.Location = new System.Drawing.Point(1345, 0);
+            this.MaximalizeButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximalizeButton.Name = "MaximalizeButton";
-            this.MaximalizeButton.Size = new System.Drawing.Size(40, 29);
+            this.MaximalizeButton.Size = new System.Drawing.Size(53, 36);
             this.MaximalizeButton.TabIndex = 2;
             this.MaximalizeButton.Click += new System.EventHandler(this.MaximalizeButton_Click);
             // 
@@ -81,9 +82,10 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.ExitButton.FillColor = System.Drawing.Color.Transparent;
             this.ExitButton.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ExitButton.ForeColor = System.Drawing.Color.Black;
-            this.ExitButton.Location = new System.Drawing.Point(1050, 0);
+            this.ExitButton.Location = new System.Drawing.Point(1400, 0);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(40, 29);
+            this.ExitButton.Size = new System.Drawing.Size(53, 36);
             this.ExitButton.TabIndex = 1;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
@@ -101,9 +103,10 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.MinimalizeButton.FillColor = System.Drawing.Color.Transparent;
             this.MinimalizeButton.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MinimalizeButton.ForeColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.Location = new System.Drawing.Point(968, 0);
+            this.MinimalizeButton.Location = new System.Drawing.Point(1291, 0);
+            this.MinimalizeButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MinimalizeButton.Name = "MinimalizeButton";
-            this.MinimalizeButton.Size = new System.Drawing.Size(40, 29);
+            this.MinimalizeButton.Size = new System.Drawing.Size(53, 36);
             this.MinimalizeButton.TabIndex = 3;
             this.MinimalizeButton.Click += new System.EventHandler(this.MinimalizeButton_Click);
             // 
@@ -112,7 +115,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.LoginButton.AutoRoundedCorners = true;
             this.LoginButton.BackColor = System.Drawing.Color.Transparent;
             this.LoginButton.BorderColor = System.Drawing.Color.DarkGray;
-            this.LoginButton.BorderRadius = 16;
+            this.LoginButton.BorderRadius = 20;
             this.LoginButton.BorderThickness = 1;
             this.LoginButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LoginButton.CustomBorderColor = System.Drawing.Color.Transparent;
@@ -120,9 +123,10 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.LoginButton.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.LoginButton.ForeColor = System.Drawing.Color.White;
             this.LoginButton.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.LoginButton.Location = new System.Drawing.Point(47, 562);
+            this.LoginButton.Location = new System.Drawing.Point(63, 692);
+            this.LoginButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(273, 35);
+            this.LoginButton.Size = new System.Drawing.Size(364, 43);
             this.LoginButton.TabIndex = 10;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseTransparentBackground = true;
@@ -133,7 +137,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.RegisterButton.AutoRoundedCorners = true;
             this.RegisterButton.BackColor = System.Drawing.Color.Transparent;
             this.RegisterButton.BorderColor = System.Drawing.Color.DarkGray;
-            this.RegisterButton.BorderRadius = 16;
+            this.RegisterButton.BorderRadius = 20;
             this.RegisterButton.BorderThickness = 1;
             this.RegisterButton.CheckedState.BorderColor = System.Drawing.Color.Goldenrod;
             this.RegisterButton.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -141,9 +145,10 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.RegisterButton.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.RegisterButton.ForeColor = System.Drawing.Color.White;
             this.RegisterButton.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.RegisterButton.Location = new System.Drawing.Point(47, 639);
+            this.RegisterButton.Location = new System.Drawing.Point(63, 786);
+            this.RegisterButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RegisterButton.Name = "RegisterButton";
-            this.RegisterButton.Size = new System.Drawing.Size(273, 35);
+            this.RegisterButton.Size = new System.Drawing.Size(364, 43);
             this.RegisterButton.TabIndex = 12;
             this.RegisterButton.Text = "Registration";
             this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
@@ -153,7 +158,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.PasswordTextBox.AutoRoundedCorners = true;
             this.PasswordTextBox.BackColor = System.Drawing.Color.Transparent;
             this.PasswordTextBox.BorderColor = System.Drawing.Color.DarkGray;
-            this.PasswordTextBox.BorderRadius = 17;
+            this.PasswordTextBox.BorderRadius = 21;
             this.PasswordTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.PasswordTextBox.DefaultText = "";
             this.PasswordTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -165,14 +170,14 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.PasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.PasswordTextBox.ForeColor = System.Drawing.Color.White;
             this.PasswordTextBox.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.PasswordTextBox.Location = new System.Drawing.Point(47, 470);
-            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.PasswordTextBox.Location = new System.Drawing.Point(63, 578);
+            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.PasswordChar = '\0';
             this.PasswordTextBox.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.PasswordTextBox.PlaceholderText = "";
             this.PasswordTextBox.SelectedText = "";
-            this.PasswordTextBox.Size = new System.Drawing.Size(273, 36);
+            this.PasswordTextBox.Size = new System.Drawing.Size(364, 44);
             this.PasswordTextBox.TabIndex = 8;
             this.PasswordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.PasswordTextBox.TextChanged += new System.EventHandler(this.PasswordTextBox_TextChanged);
@@ -183,9 +188,10 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.RegisterLabel.BackColor = System.Drawing.Color.Transparent;
             this.RegisterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.RegisterLabel.ForeColor = System.Drawing.Color.Silver;
-            this.RegisterLabel.Location = new System.Drawing.Point(56, 616);
+            this.RegisterLabel.Location = new System.Drawing.Point(75, 758);
+            this.RegisterLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.RegisterLabel.Name = "RegisterLabel";
-            this.RegisterLabel.Size = new System.Drawing.Size(212, 20);
+            this.RegisterLabel.Size = new System.Drawing.Size(261, 25);
             this.RegisterLabel.TabIndex = 13;
             this.RegisterLabel.Text = "If you don\'t have an account:";
             // 
@@ -195,11 +201,12 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.PasswordLabel.BackColor = System.Drawing.Color.Transparent;
             this.PasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.PasswordLabel.ForeColor = System.Drawing.Color.Silver;
-            this.PasswordLabel.Location = new System.Drawing.Point(56, 447);
+            this.PasswordLabel.Location = new System.Drawing.Point(75, 550);
+            this.PasswordLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(125, 20);
+            this.PasswordLabel.Size = new System.Drawing.Size(196, 25);
             this.PasswordLabel.TabIndex = 9;
-            this.PasswordLabel.Text = "Enter Password:";
+            this.PasswordLabel.Text = "Enter your password:";
             // 
             // LoginLabel
             // 
@@ -207,9 +214,10 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.LoginLabel.BackColor = System.Drawing.Color.Transparent;
             this.LoginLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.LoginLabel.ForeColor = System.Drawing.Color.Silver;
-            this.LoginLabel.Location = new System.Drawing.Point(56, 539);
+            this.LoginLabel.Location = new System.Drawing.Point(75, 663);
+            this.LoginLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LoginLabel.Name = "LoginLabel";
-            this.LoginLabel.Size = new System.Drawing.Size(333, 20);
+            this.LoginLabel.Size = new System.Drawing.Size(413, 25);
             this.LoginLabel.TabIndex = 11;
             this.LoginLabel.Text = "If you have an account and filled boxes above:";
             // 
@@ -219,20 +227,21 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.NameLabel.BackColor = System.Drawing.Color.Transparent;
             this.NameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.NameLabel.ForeColor = System.Drawing.Color.Silver;
-            this.NameLabel.Location = new System.Drawing.Point(56, 372);
+            this.NameLabel.Location = new System.Drawing.Point(75, 458);
+            this.NameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(98, 20);
+            this.NameLabel.Size = new System.Drawing.Size(199, 25);
             this.NameLabel.TabIndex = 5;
-            this.NameLabel.Text = "Enter Name:";
+            this.NameLabel.Text = "Enter your username:";
             // 
             // NameTextBox
             // 
             this.NameTextBox.AutoRoundedCorners = true;
             this.NameTextBox.BackColor = System.Drawing.Color.Transparent;
             this.NameTextBox.BorderColor = System.Drawing.Color.DarkGray;
-            this.NameTextBox.BorderRadius = 17;
+            this.NameTextBox.BorderRadius = 21;
             this.NameTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.NameTextBox.DefaultText = "Name";
+            this.NameTextBox.DefaultText = "";
             this.NameTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.NameTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.NameTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -242,15 +251,14 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.NameTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.NameTextBox.ForeColor = System.Drawing.Color.White;
             this.NameTextBox.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.NameTextBox.Location = new System.Drawing.Point(47, 395);
-            this.NameTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.NameTextBox.Location = new System.Drawing.Point(63, 486);
+            this.NameTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.NameTextBox.Name = "NameTextBox";
             this.NameTextBox.PasswordChar = '\0';
             this.NameTextBox.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.NameTextBox.PlaceholderText = "";
             this.NameTextBox.SelectedText = "";
-            this.NameTextBox.SelectionStart = 4;
-            this.NameTextBox.Size = new System.Drawing.Size(273, 36);
+            this.NameTextBox.Size = new System.Drawing.Size(364, 44);
             this.NameTextBox.TabIndex = 4;
             this.NameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NameTextBox.TextChanged += new System.EventHandler(this.NameTextBox_TextChanged);
@@ -267,8 +275,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.UpperBorderPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.UpperBorderPanel.ForeColor = System.Drawing.Color.Transparent;
             this.UpperBorderPanel.Location = new System.Drawing.Point(0, 0);
+            this.UpperBorderPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.UpperBorderPanel.Name = "UpperBorderPanel";
-            this.UpperBorderPanel.Size = new System.Drawing.Size(1091, 32);
+            this.UpperBorderPanel.Size = new System.Drawing.Size(1455, 40);
             this.UpperBorderPanel.TabIndex = 16;
             // 
             // guna2Panel1
@@ -276,19 +285,20 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Login;
             this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2Panel1.Location = new System.Drawing.Point(423, 73);
+            this.guna2Panel1.Location = new System.Drawing.Point(564, 90);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(251, 85);
+            this.guna2Panel1.Size = new System.Drawing.Size(335, 105);
             this.guna2Panel1.TabIndex = 17;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.LoginBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1091, 708);
+            this.ClientSize = new System.Drawing.Size(1455, 871);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.UpperBorderPanel);
             this.Controls.Add(this.LoginButton);
@@ -302,6 +312,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.ForeColor = System.Drawing.Color.Transparent;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Login";
             this.Text = "Form1";
             this.UpperBorderPanel.ResumeLayout(false);
