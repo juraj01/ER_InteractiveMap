@@ -40,10 +40,10 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.NameLabel = new System.Windows.Forms.Label();
             this.NameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.UpperBorderPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.MinimalizeButton = new Guna.UI2.WinForms.Guna2ControlBox();
             this.ExitButton = new Guna.UI2.WinForms.Guna2ControlBox();
             this.MaximizeButton = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.MinimalizeButton = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.UpperBorderPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -105,7 +105,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.PasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.PasswordTextBox.ForeColor = System.Drawing.Color.White;
             this.PasswordTextBox.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.PasswordTextBox.Location = new System.Drawing.Point(47, 470);
+            this.PasswordTextBox.Location = new System.Drawing.Point(47, 461);
             this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.PasswordChar = '\0';
@@ -135,7 +135,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.PasswordLabel.BackColor = System.Drawing.Color.Transparent;
             this.PasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.PasswordLabel.ForeColor = System.Drawing.Color.Silver;
-            this.PasswordLabel.Location = new System.Drawing.Point(56, 447);
+            this.PasswordLabel.Location = new System.Drawing.Point(56, 438);
             this.PasswordLabel.Name = "PasswordLabel";
             this.PasswordLabel.Size = new System.Drawing.Size(158, 20);
             this.PasswordLabel.TabIndex = 9;
@@ -159,7 +159,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.NameLabel.BackColor = System.Drawing.Color.Transparent;
             this.NameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.NameLabel.ForeColor = System.Drawing.Color.Silver;
-            this.NameLabel.Location = new System.Drawing.Point(56, 372);
+            this.NameLabel.Location = new System.Drawing.Point(56, 347);
             this.NameLabel.Name = "NameLabel";
             this.NameLabel.Size = new System.Drawing.Size(161, 20);
             this.NameLabel.TabIndex = 5;
@@ -182,7 +182,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.NameTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.NameTextBox.ForeColor = System.Drawing.Color.White;
             this.NameTextBox.HoverState.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.NameTextBox.Location = new System.Drawing.Point(47, 395);
+            this.NameTextBox.Location = new System.Drawing.Point(47, 370);
             this.NameTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NameTextBox.Name = "NameTextBox";
             this.NameTextBox.PasswordChar = '\0';
@@ -210,15 +210,20 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.UpperBorderPanel.Size = new System.Drawing.Size(1091, 32);
             this.UpperBorderPanel.TabIndex = 16;
             // 
-            // guna2Panel1
+            // MinimalizeButton
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Login;
-            this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2Panel1.Location = new System.Drawing.Point(60, 65);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(385, 125);
-            this.guna2Panel1.TabIndex = 17;
+            this.MinimalizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.MinimalizeButton.BackColor = System.Drawing.Color.Transparent;
+            this.MinimalizeButton.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Minimalize___final;
+            this.MinimalizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.MinimalizeButton.BorderColor = System.Drawing.Color.Transparent;
+            this.MinimalizeButton.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.MinimalizeButton.FillColor = System.Drawing.Color.Transparent;
+            this.MinimalizeButton.IconColor = System.Drawing.Color.Transparent;
+            this.MinimalizeButton.Location = new System.Drawing.Point(962, 0);
+            this.MinimalizeButton.Name = "MinimalizeButton";
+            this.MinimalizeButton.Size = new System.Drawing.Size(45, 29);
+            this.MinimalizeButton.TabIndex = 18;
             // 
             // ExitButton
             // 
@@ -249,20 +254,15 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.MaximizeButton.Size = new System.Drawing.Size(45, 29);
             this.MaximizeButton.TabIndex = 19;
             // 
-            // MinimalizeButton
+            // guna2Panel1
             // 
-            this.MinimalizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MinimalizeButton.BackColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Minimalize___final;
-            this.MinimalizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.MinimalizeButton.BorderColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.MinimalizeButton.FillColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.IconColor = System.Drawing.Color.Transparent;
-            this.MinimalizeButton.Location = new System.Drawing.Point(962, 0);
-            this.MinimalizeButton.Name = "MinimalizeButton";
-            this.MinimalizeButton.Size = new System.Drawing.Size(45, 29);
-            this.MinimalizeButton.TabIndex = 18;
+            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Login;
+            this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2Panel1.Location = new System.Drawing.Point(60, 65);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(385, 125);
+            this.guna2Panel1.TabIndex = 17;
             // 
             // Login
             // 

@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.UpperBorderPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.MinimalizeButton = new Guna.UI2.WinForms.Guna2ControlBox();
             this.ExitButton = new Guna.UI2.WinForms.Guna2ControlBox();
             this.MaximizeButton = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.UpperBorderPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,32 +51,6 @@
             this.UpperBorderPanel.Name = "UpperBorderPanel";
             this.UpperBorderPanel.Size = new System.Drawing.Size(1091, 30);
             this.UpperBorderPanel.TabIndex = 0;
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.overworld_compressed;
-            this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guna2Panel1.Location = new System.Drawing.Point(164, 31);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(728, 677);
-            this.guna2Panel1.TabIndex = 1;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 30);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(158, 678);
-            this.guna2Panel2.TabIndex = 2;
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2Panel3.Location = new System.Drawing.Point(891, 30);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(200, 678);
-            this.guna2Panel3.TabIndex = 3;
             // 
             // MinimalizeButton
             // 
@@ -121,6 +95,32 @@
             this.MaximizeButton.Name = "MaximizeButton";
             this.MaximizeButton.Size = new System.Drawing.Size(45, 29);
             this.MaximizeButton.TabIndex = 22;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.overworld_compressed;
+            this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2Panel1.Location = new System.Drawing.Point(164, 31);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(728, 677);
+            this.guna2Panel1.TabIndex = 1;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel2.Location = new System.Drawing.Point(0, 30);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(158, 678);
+            this.guna2Panel2.TabIndex = 2;
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.guna2Panel3.Location = new System.Drawing.Point(953, 30);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(138, 678);
+            this.guna2Panel3.TabIndex = 3;
             // 
             // Main
             // 
