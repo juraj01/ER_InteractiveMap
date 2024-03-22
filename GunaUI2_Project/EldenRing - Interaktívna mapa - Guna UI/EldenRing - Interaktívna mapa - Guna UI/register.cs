@@ -108,13 +108,13 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
             if (username == null || password == null || confirmationPassword == null)
             {
-                MessageBox.Show("Fill all blank boxes");
+                System.Windows.Forms.MessageBox.Show("Fill all blank boxes");
             }
             else if (username != null && username.Length >= 4)
             {
                 if (connectRegister.IsValueExistsName("users", "name", username))
                 {
-                    MessageBox.Show("This username already exist");
+                    System.Windows.Forms.MessageBox.Show("This username already exist");
                 }
                 else
                 {
@@ -125,28 +125,28 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                             if (password == confirmationPassword)
                             {
                                 connectRegister.InsertDataIntoUsers(username, password);
-                                MessageBox.Show("Registration was successfull");
+                                System.Windows.Forms.MessageBox.Show("Registration was successfull");
                                 this.Close();
                             }
                             else
                             {
-                                MessageBox.Show("Your password and confirmation password don't match");
+                                System.Windows.Forms.MessageBox.Show("Your password and confirmation password don't match");
                             }
                         }
                         else
                         {
-                            MessageBox.Show("You forgot to enter your password or your password is less than 8 characters long");
+                            System.Windows.Forms.MessageBox.Show("You forgot to enter your password or your password is less than 8 characters long");
                         }
                     }
                     else
                     {
-                        MessageBox.Show("Username cannot contain special characters");
+                        System.Windows.Forms.MessageBox.Show("Username cannot contain special characters");
                     }
                 }
             }
             else
             {
-                MessageBox.Show("You forgot to enter your username or your username is less than 4 letters long");
+                System.Windows.Forms.MessageBox.Show("You forgot to enter your username or your username is less than 4 letters long");
             }
             
         }

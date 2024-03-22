@@ -59,22 +59,22 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         {
             // Calculate new sizes for textboxes and buttons
             int buttonWidth = this.ClientSize.Width / 10; 
-            int buttonHeight = this.ClientSize.Height / 20; 
+            int buttonHeight = this.ClientSize.Height / 22; 
             int textBoxWidth = this.ClientSize.Width / 4; 
-            int textBoxHeight = this.ClientSize.Height / 19;
+            int textBoxHeight = this.ClientSize.Height / 21;
 
-            float buttonFontSize = buttonHeight / 3;
-            float textBoxFontSize = textBoxHeight / 3;
+            //float buttonFontSize = buttonHeight / 3;
+            //float textBoxFontSize = textBoxHeight / 3;
 
             // Resizing Login/Register buttons and textboxes
             LoginButton.Size = new Size(buttonWidth, buttonHeight);
-            LoginButton.Font = new Font(LoginButton.Font.FontFamily, buttonFontSize);
+            //LoginButton.Font = new Font(LoginButton.Font.FontFamily, buttonFontSize);
             RegisterButton.Size = new Size(buttonWidth, buttonHeight);
-            RegisterButton.Font = new Font(RegisterButton.Font.FontFamily, buttonFontSize);
+            //RegisterButton.Font = new Font(RegisterButton.Font.FontFamily, buttonFontSize);
             NameTextBox.Size = new Size(textBoxWidth, textBoxHeight);
-            NameTextBox.Font = new Font(NameTextBox.Font.FontFamily, textBoxFontSize);
+            //NameTextBox.Font = new Font(NameTextBox.Font.FontFamily, textBoxFontSize);
             PasswordTextBox.Size = new Size(textBoxWidth, textBoxHeight);
-            PasswordTextBox.Font = new Font(PasswordTextBox.Font.FontFamily, textBoxFontSize);
+            //PasswordTextBox.Font = new Font(PasswordTextBox.Font.FontFamily, textBoxFontSize);
         }
 
         private void NameBoxSize(object sender, EventArgs e)
@@ -136,7 +136,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
             if (username == null || password == null)
             {
-                MessageBox.Show("Fall all blank boxes");
+                System.Windows.Forms.MessageBox.Show("Fall all blank boxes");
             }
             else 
             {
@@ -144,19 +144,19 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                 {
                     if (connectLogin.IsValueExistsLogin("users", "name", "password", username, password))
                     {
-                        MessageBox.Show("Login was successfull");
+                        System.Windows.Forms.MessageBox.Show("Login was successfull");
                         this.Close();
-                        Main main = new Main();
-                        main.Show();
+                        //Main main = new Main();
+                        //main.Show();
                     }
                     else
                     {
-                        MessageBox.Show("Password doesn't match your username");
+                        System.Windows.Forms.MessageBox.Show("Password doesn't match your username");
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Username doesn't exist");
+                    System.Windows.Forms.MessageBox.Show("Username doesn't exist");
                 }
             }
         }
