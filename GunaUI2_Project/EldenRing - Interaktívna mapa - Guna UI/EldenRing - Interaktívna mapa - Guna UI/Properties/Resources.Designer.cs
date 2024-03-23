@@ -83,6 +83,26 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap App_Logo1 {
+            get {
+                object obj = ResourceManager.GetObject("App Logo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap App_Logo2 {
+            get {
+                object obj = ResourceManager.GetObject("App Logo2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap elden_ring_landscape_game_art_video_game_art_video_games_hd_wallpaper_preview {
             get {
                 object obj = ResourceManager.GetObject("elden-ring-landscape-game-art-video-game-art-video-games-hd-wallpaper-preview", resourceCulture);
@@ -156,6 +176,16 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI.Properties {
         internal static System.Drawing.Bitmap LoginRegister_Background {
             get {
                 object obj = ResourceManager.GetObject("LoginRegister Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Main_nadpis {
+            get {
+                object obj = ResourceManager.GetObject("Main nadpis", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

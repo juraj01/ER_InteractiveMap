@@ -116,7 +116,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caelid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caelid.Designer.cs">
+      <DependentUpon>Caelid.cs</DependentUpon>
+    </Compile>
     <Compile Include="conncectToMysql.cs" />
+    <Compile Include="guna2TextBox1.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +144,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Caelid.resx">
+      <DependentUpon>Caelid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -233,6 +243,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\map-text-background-region4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\App Logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main nadpis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\App Logo2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

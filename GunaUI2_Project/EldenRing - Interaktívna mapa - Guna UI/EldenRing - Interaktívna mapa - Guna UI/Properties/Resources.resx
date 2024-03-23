@@ -133,14 +133,14 @@
   <data name="Minimalize - prototyp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Minimalize - prototyp2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="map-text-background-region" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-text-background-region.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="App Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LoginBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LoginBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="stiahnuť" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stiahnuť.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="overworld-compressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\overworld-compressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,8 +154,8 @@
   <data name="Minimalize - final" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Minimalize - final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map-text-background-region" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\map-text-background-region.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="stiahnuť" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stiahnuť.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Nadpis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nadpis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,6 +169,9 @@
   <data name="map-text-background-region1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\map-text-background-region1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="App Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App Logo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="elden-ring-pc-games-playstation-4-playstation-5-xbox-one-3840x5120-7712" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\elden-ring-pc-games-playstation-4-playstation-5-xbox-one-3840x5120-7712.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -181,6 +184,9 @@
   <data name="Exit - final " type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Exit - final .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="map-text-background-region4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-text-background-region4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1151249" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1151249.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -190,7 +196,10 @@
   <data name="Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map-text-background-region4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\map-text-background-region4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Main nadpis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main nadpis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="App Logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App Logo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
