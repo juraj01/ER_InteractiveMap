@@ -50,12 +50,33 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.UpperBorderPanel.MouseDown += UpperBorderPanel_MouseDown;
             this.UpperBorderPanel.MouseMove += UpperBorderPanel_MouseMove;
             this.UpperBorderPanel.MouseUp += UpperBorderPanel_MouseUp;
-            //Buttons event handlers:
-            this.MinimalizeButton.Click += MinimalizeButton_Click;
-            this.MaximalizeButton.Click += MaximalizeButton_Click;
-            this.ExitButton.Click += ExitButton_Click;
+            //Resize event handler:
+            this.Resize += Form_Resize;
 
         }
+
+        private void Form_Resize(object sender, EventArgs e)
+        {
+            // Calculate new sizes for textboxes and buttons
+            int buttonWidth = this.ClientSize.Width / 10; 
+            int buttonHeight = this.ClientSize.Height / 22; 
+            int textBoxWidth = this.ClientSize.Width / 4; 
+            int textBoxHeight = this.ClientSize.Height / 21;
+
+            //float buttonFontSize = buttonHeight / 3;
+            //float textBoxFontSize = textBoxHeight / 3;
+
+            // Resizing Login/Register buttons and textboxes
+            LoginButton.Size = new Size(buttonWidth, buttonHeight);
+            //LoginButton.Font = new Font(LoginButton.Font.FontFamily, buttonFontSize);
+            RegisterButton.Size = new Size(buttonWidth, buttonHeight);
+            //RegisterButton.Font = new Font(RegisterButton.Font.FontFamily, buttonFontSize);
+            NameTextBox.Size = new Size(textBoxWidth, textBoxHeight);
+            //NameTextBox.Font = new Font(NameTextBox.Font.FontFamily, textBoxFontSize);
+            PasswordTextBox.Size = new Size(textBoxWidth, textBoxHeight);
+            //PasswordTextBox.Font = new Font(PasswordTextBox.Font.FontFamily, textBoxFontSize);
+        }
+
         private void NameBoxSize(object sender, EventArgs e)
         {
             NameTextBox.Width = this.Width / 4;
@@ -115,7 +136,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
             if (username == null || password == null)
             {
-                MessageBox.Show("Fall all blank boxes");
+                System.Windows.Forms.MessageBox.Show("Fall all blank boxes");
             }
             else 
             {
@@ -123,17 +144,19 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                 {
                     if (connectLogin.IsValueExistsLogin("users", "name", "password", username, password))
                     {
-                        MessageBox.Show("Login was successfull");
+                        System.Windows.Forms.MessageBox.Show("Login was successfull");
                         this.Close();
+                        //Main main = new Main();
+                        //main.Show();
                     }
                     else
                     {
-                        MessageBox.Show("Password doesn't match your username");
+                        System.Windows.Forms.MessageBox.Show("Password doesn't match your username");
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Username doesn't exist");
+                    System.Windows.Forms.MessageBox.Show("Username doesn't exist");
                 }
             }
         }
@@ -160,29 +183,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         {
 
         }
-        //top bar logic
-        private void MinimalizeButton_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
-        private void ExitButton_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void MaximalizeButton_Click(object sender, EventArgs e)
-        {
-            /*if (this.WindowState == FormWindowState.Maximized)
-            {
-                this.WindowState = FormWindowState.Normal;
-            }
-            else
-            {
-                this.WindowState = FormWindowState.Maximized;
-            }*/
-            this.WindowState = (this.WindowState == FormWindowState.Maximized) ? FormWindowState.Normal : FormWindowState.Maximized;
-        }
+       
 
         private void UpperBorderPanel_MouseDown(object sender, MouseEventArgs e)
         {

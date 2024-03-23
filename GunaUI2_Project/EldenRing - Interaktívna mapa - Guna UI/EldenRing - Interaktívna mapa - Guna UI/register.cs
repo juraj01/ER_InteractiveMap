@@ -38,9 +38,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.UpperBorderPanel.MouseMove += UpperBorderPanel_MouseMove;
             this.UpperBorderPanel.MouseUp += UpperBorderPanel_MouseUp;
             //Buttons event handlers:
-            this.MinimalizeButton.Click += MinimalizeButton_Click;
+            /*this.MinimalizeButton.Click += MinimalizeButton_Click;
             this.ExitButton.Click += ExitButton_Click;
-            this.RegisterButton.Click += RegisterButton_Click;
+            this.RegisterButton.Click += RegisterButton_Click;*/
             
         } 
 
@@ -52,7 +52,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         }
 
         //top bar logic
-        private void MinimalizeButton_Click(object sender, EventArgs e)
+       /* private void MinimalizeButton_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
@@ -60,7 +60,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private void ExitButton_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
+        }*/
 
         private void UpperBorderPanel_MouseDown(object sender, MouseEventArgs e)
         {
@@ -108,13 +108,13 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
             if (username == null || password == null || confirmationPassword == null)
             {
-                MessageBox.Show("Fill all blank boxes");
+                System.Windows.Forms.MessageBox.Show("Fill all blank boxes");
             }
             else if (username != null && username.Length >= 4)
             {
                 if (connectRegister.IsValueExistsName("users", "name", username))
                 {
-                    MessageBox.Show("This username already exist");
+                    System.Windows.Forms.MessageBox.Show("This username already exist");
                 }
                 else
                 {
@@ -125,28 +125,28 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                             if (password == confirmationPassword)
                             {
                                 connectRegister.InsertDataIntoUsers(username, password);
-                                MessageBox.Show("Registration was successfull");
+                                System.Windows.Forms.MessageBox.Show("Registration was successfull");
                                 this.Close();
                             }
                             else
                             {
-                                MessageBox.Show("Your password and confirmation password don't match");
+                                System.Windows.Forms.MessageBox.Show("Your password and confirmation password don't match");
                             }
                         }
                         else
                         {
-                            MessageBox.Show("You forgot to enter your password or your password is less than 8 characters long");
+                            System.Windows.Forms.MessageBox.Show("You forgot to enter your password or your password is less than 8 characters long");
                         }
                     }
                     else
                     {
-                        MessageBox.Show("Username cannot contain special characters");
+                        System.Windows.Forms.MessageBox.Show("Username cannot contain special characters");
                     }
                 }
             }
             else
             {
-                MessageBox.Show("You forgot to enter your username or your username is less than 4 letters long");
+                System.Windows.Forms.MessageBox.Show("You forgot to enter your username or your username is less than 4 letters long");
             }
             
         }
