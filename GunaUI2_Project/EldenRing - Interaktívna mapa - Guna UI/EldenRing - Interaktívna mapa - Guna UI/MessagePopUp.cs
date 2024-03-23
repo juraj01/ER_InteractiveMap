@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Text;
 
 namespace EldenRing___Interaktívna_mapa___Guna_UI
 {
@@ -67,5 +68,28 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                 isDragging = false;
             }
         }
+
+        
+        
+
+        
+        private void MessagePopUp_Load(object sender, EventArgs e)
+        {
+           PrivateFontCollection pfc = new PrivateFontCollection();
+            pfc.AddFontFile("E:CustomFont.ttf");
+            foreach (Control C in this.Controls)
+            {
+                C.Font = new Font(pfc.Families[0], 15, FontStyle.Regular);
+            }
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+    
+
+
+
