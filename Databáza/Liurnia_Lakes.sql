@@ -67,4 +67,8 @@ INSERT INTO Locations (location_name) VALUES
 ('Magma Wyrm Makar'),
 ('Moonlight Altar'),
 ('Cathedral of Manus Celes'),
-('Altar South');
+('Altar South'),
+('Church of the Cuckoo'),
+('Schoolhouse Classroom'),
+('Debate Parlor'),
+('Raya Lucaria Grand Library');
