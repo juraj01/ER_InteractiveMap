@@ -25,6 +25,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private Point lastCursorPosition;
         bool IsValidEmail = false;
         const int _spacer = 9;
+        private MessagePopUp _message;
 
         public Login()
         {
@@ -33,6 +34,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             InitializeEventHandlers();
 
             PasswordTextBox.UseSystemPasswordChar = true;
+            _message = new MessagePopUp();
         }
 
         private void InitializeFormSettings()
@@ -58,7 +60,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private void Form_Resize(object sender, EventArgs e)
         {
             // Calculate new sizes for textboxes and buttons
-            int buttonWidth = this.ClientSize.Width / 10; 
+            int buttonWidth = this.ClientSize.Width / 8; 
             int buttonHeight = this.ClientSize.Height / 22; 
             int textBoxWidth = this.ClientSize.Width / 4; 
             int textBoxHeight = this.ClientSize.Height / 21;
@@ -134,9 +136,11 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
             connecttomysql connectLogin = new connecttomysql();
 
-            if (username == null || password == null)
+            if (username == null && password == null)
             {
-                System.Windows.Forms.MessageBox.Show("Fall all blank boxes");
+                //System.Windows.Forms.MessageBox.Show("Fill all blank boxes");
+                _message.Show();
+                _message.ShowMessage("Fill all blank boxes");
             }
             else 
             {
@@ -144,19 +148,25 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                 {
                     if (connectLogin.IsValueExistsLogin("users", "name", "password", username, password))
                     {
-                        System.Windows.Forms.MessageBox.Show("Login was successfull");
+                        //System.Windows.Forms.MessageBox.Show("Login was successfull");
+                        _message.Show();
+                        _message.ShowMessage("Login was successfull");
                         this.Close();
                         //Main main = new Main();
                         //main.Show();
                     }
                     else
                     {
-                        System.Windows.Forms.MessageBox.Show("Password doesn't match your username");
+                        //System.Windows.Forms.MessageBox.Show("Password doesn't match your username");
+                        _message.Show();
+                        _message.ShowMessage("Password doesn't match your username");
                     }
                 }
                 else
                 {
-                    System.Windows.Forms.MessageBox.Show("Username doesn't exist");
+                    //System.Windows.Forms.MessageBox.Show("Username doesn't exist");
+                    _message.Show();
+                    _message.ShowMessage("Username doesn't exist");
                 }
             }
         }

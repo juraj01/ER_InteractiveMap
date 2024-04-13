@@ -30,6 +30,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.UpperBorderPanel.MouseDown += UpperBorderPanel_MouseDown;
             this.UpperBorderPanel.MouseMove += UpperBorderPanel_MouseMove;
             this.UpperBorderPanel.MouseUp += UpperBorderPanel_MouseUp;
+            this.Ok.Click += Ok_Click;
 
         }
 
@@ -69,9 +70,13 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             }
         }
 
-        
-        
+        internal void ShowMessage(string message)
+        {
+            this.MessageLabel.Text = message;
+            this.ShowDialog();
+        }
 
+       
         
         private void MessagePopUp_Load(object sender, EventArgs e)
         {
@@ -86,6 +91,11 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Ok_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

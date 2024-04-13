@@ -30,9 +30,9 @@
         {
             this.UpperBorderPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.Ok = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.ExitButton = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.MessageLabel = new System.Windows.Forms.Label();
             this.UpperBorderPanel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
@@ -66,45 +66,7 @@
             this.Ok.Size = new System.Drawing.Size(89, 31);
             this.Ok.TabIndex = 2;
             this.Ok.Text = "OK";
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Black;
-            this.guna2Panel1.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.map_text_background_region4;
-            this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2Panel1.Controls.Add(this.guna2TextBox1);
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 65);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(495, 85);
-            this.guna2Panel1.TabIndex = 3;
-            // 
-            // guna2TextBox1
-            // 
-            this.guna2TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2TextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "Custom font";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Mantinia", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(13, 19);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(6);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(467, 50);
-            this.guna2TextBox1.TabIndex = 1;
-            this.guna2TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2TextBox1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
+            this.Ok.Click += new System.EventHandler(this.Ok_Click);
             // 
             // ExitButton
             // 
@@ -120,6 +82,29 @@
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(52, 31);
             this.ExitButton.TabIndex = 21;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.map_text_background_region;
+            this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2Panel1.Controls.Add(this.MessageLabel);
+            this.guna2Panel1.Location = new System.Drawing.Point(-134, 38);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(741, 137);
+            this.guna2Panel1.TabIndex = 3;
+            // 
+            // MessageLabel
+            // 
+            this.MessageLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.MessageLabel.AutoSize = true;
+            this.MessageLabel.BackColor = System.Drawing.Color.Transparent;
+            this.MessageLabel.Font = new System.Drawing.Font("Mantinia", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MessageLabel.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.MessageLabel.Location = new System.Drawing.Point(267, 50);
+            this.MessageLabel.Name = "MessageLabel";
+            this.MessageLabel.Size = new System.Drawing.Size(195, 40);
+            this.MessageLabel.TabIndex = 0;
+            this.MessageLabel.Text = "Custom Text";
             // 
             // MessagePopUp
             // 
@@ -138,6 +123,7 @@
             this.Load += new System.EventHandler(this.MessagePopUp_Load);
             this.UpperBorderPanel.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -146,8 +132,8 @@
 
         private Guna.UI2.WinForms.Guna2Panel UpperBorderPanel;
         private Guna.UI2.WinForms.Guna2ControlBox ExitButton;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2Button Ok;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private System.Windows.Forms.Label MessageLabel;
     }
 }

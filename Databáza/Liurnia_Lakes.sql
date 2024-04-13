@@ -1,4 +1,5 @@
-CREATE TABLE  Locations (
+-- Create the Locations table
+CREATE TABLE Locations (
     id INTEGER PRIMARY KEY,
     location_name TEXT
 );
@@ -72,3 +73,50 @@ INSERT INTO Locations (location_name) VALUES
 ('Schoolhouse Classroom'),
 ('Debate Parlor'),
 ('Raya Lucaria Grand Library');
+
+-- Create the Bosses table
+CREATE TABLE Bosses (
+    id INTEGER PRIMARY KEY,
+    boss_name TEXT,
+    boss_type TEXT,
+    location TEXT
+);
+
+-- Insert the boss data into the table
+INSERT INTO Bosses (boss_name, boss_type, location) VALUES 
+('Glintstone Dragon Smarag', 'Boss', 'Liurnia'),
+('Deathbird (Liurna Lake)', 'Boss', 'Liurnia'),
+('Red Wolf of Radagon', 'Boss', 'Liurnia'),
+('Night''s Cavalry', 'Boss', 'Liurnia'),
+('Magma Wyrm Makar', 'Boss', 'Liurnia'),
+('Crystalian (Ringblade)', 'Boss', 'Liurnia'),
+('Cleanrot Knight', 'Boss', 'Liurnia'),
+('Omenkiller', 'Boss', 'Liurnia'),
+('Spear Crystalian & Staff Crystalian', 'Boss', 'Liurnia'),
+('Black Knife Assassin', 'Boss', 'Liurnia'),
+('Cemetery Shade (Black Knife Catacombs)', 'Boss', 'Liurnia'),
+('Death Rite Bird', 'Boss', 'Liurnia'),
+('Adan, Thief of Fire', 'Boss', 'Liurnia'),
+('Tibia Mariner', 'Boss', 'Liurnia'),
+('Night''s Cavalry', 'Boss', 'Liurnia'),
+('Spirit Caller Snail', 'Boss', 'Liurnia'),
+('Onyx Lord', 'Boss', 'Liurnia'),
+('Royal Revenant', 'Boss', 'Liurnia'),
+('Bols, Carian Knight', 'Boss', 'Liurnia'),
+('Glintstone Dragon Adula (2nd Location)', 'Boss', 'Liurnia'),
+('Godskin Noble', 'Boss', 'Liurnia'),
+('Erdtree Burial Watchdog', 'Boss', 'Liurnia'),
+('Bloodhound Knight', 'Boss', 'Liurnia'),
+('Alecto, Black Knife Ringleader', 'Boss', 'Liurnia'),
+('Royal Knight Loretta', 'Great Boss', 'Liurnia'),
+('Erdtree Avatar', 'Great Boss', 'Liurnia'),
+('Erdtree Avatar', 'Great Boss', 'Liurnia'),
+('Glintstone Dragon Adula', 'Great Boss', 'Liurnia'),
+('Bell Bearing Hunter (Church of Vows)', 'Invasion', 'Liurnia'),
+('Moongrum, Carian Knight', 'Invasion', 'Liurnia'),
+('Bloody Finger Assassin', 'Invasion', 'Liurnia'),
+('Edgar The Revenger', 'Invasion', 'Liurnia'),
+('Festering Fingerprint Vyke', 'Invasion', 'Liurnia'),
+('Preceptor Miriam', 'Invasion', 'Liurnia'),
+('Great Horned Tragoth', 'Invasion', 'Liurnia'),
+('Rennala, Queen of the Full Moon', 'Legendary Boss', 'Liurnia');

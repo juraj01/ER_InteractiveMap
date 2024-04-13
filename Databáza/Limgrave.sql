@@ -1,9 +1,18 @@
-CREATE TABLE  Locations (
+-- Create Locations table
+CREATE TABLE Locations (
     id INTEGER PRIMARY KEY,
     location_name TEXT
 );
 
--- Insert the locations into the table
+-- Create Bosses table
+CREATE TABLE Bosses (
+    id INTEGER PRIMARY KEY,
+    boss_name TEXT,
+    boss_type TEXT,
+    location TEXT
+);
+
+-- Insert locations into the Locations table
 INSERT INTO Locations (location_name) VALUES 
 ('Church of Elleh'),
 ('Gatefront'),
@@ -60,3 +69,44 @@ INSERT INTO Locations (location_name) VALUES
 ('Liftside Chamber'),
 ('Secluded Cell'),
 ('Godrick the Grafted');
+
+-- Insert bosses into the Bosses table
+INSERT INTO Bosses (boss_name, boss_type, location) VALUES 
+('Ulcerated Tree Spirit', 'Boss', 'Limgrave'),
+('Soldier of Godrick', 'Boss', 'Limgrave'),
+('Grafted Scion', 'Boss', 'Limgrave'),
+('Tree Sentinel', 'Boss', 'Limgrave'),
+('Demi-Human Chief', 'Boss', 'Limgrave'),
+('Erdtree Burial Watchdog', 'Boss', 'Limgrave'),
+('Beastman of Farum Azula', 'Boss', 'Limgrave'),
+('Crucible Knight', 'Boss', 'Limgrave'),
+('Stonedigger Troll', 'Boss', 'Limgrave'),
+('Flying Dragon Agheel', 'Boss', 'Limgrave'),
+('Bloodhound Knight Darriwil', 'Boss', 'Limgrave'),
+('Night''s Cavalry', 'Boss', 'Limgrave'),
+('Mad Pumpkin Head', 'Boss', 'Limgrave'),
+('Grave Warden Duelist', 'Boss', 'Limgrave'),
+('Patches', 'Boss', 'Limgrave'),
+('Guardian Golem', 'Boss', 'Limgrave'),
+('Black Knife Assassin', 'Boss', 'Limgrave'),
+('Night''s Cavalry (Weeping Peninsula)', 'Boss', 'Limgrave'),
+('Leonine Misbegotten', 'Boss', 'Limgrave'),
+('Tibia Mariner', 'Boss', 'Limgrave'),
+('Ulcerated Tree Spirit', 'Boss', 'Limgrave'),
+('Demi-Human Queen', 'Boss', 'Limgrave'),
+('Cemetery Shade', 'Boss', 'Limgrave'),
+('Ancient Hero of Zamor', 'Boss', 'Limgrave'),
+('Scaly Misbegotten', 'Boss', 'Limgrave'),
+('Deathbird', 'Boss', 'Limgrave'),
+('Runebear', 'Boss', 'Limgrave'),
+('Miranda the Blighted Bloom', 'Boss', 'Limgrave'),
+('Erdtree Burial Watchdog (Impaler''s Catacombs)', 'Boss', 'Limgrave'),
+('Deathbird', 'Boss', 'Limgrave'),
+('Margit, the Fell Omen', 'Great Boss', 'Limgrave'),
+('Erdtree Avatar', 'Great Boss', 'Limgrave'),
+('Bloody Finger Nerijus', 'Invasion', 'Limgrave'),
+('Anastasia, Tarnished-Eater', 'Invasion', 'Limgrave'),
+('Recusant Henricus', 'Invasion', 'Limgrave'),
+('Bell Bearing Hunter (Warmaster''s Shack)', 'Invasion', 'Limgrave'),
+('Old Knight Istvan', 'Invasion', 'Limgrave'),
+('Godrick the Grafted', 'Legendary Boss', 'Limgrave');

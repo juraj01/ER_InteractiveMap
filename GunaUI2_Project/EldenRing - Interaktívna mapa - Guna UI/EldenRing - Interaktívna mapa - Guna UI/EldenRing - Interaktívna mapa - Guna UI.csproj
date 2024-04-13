@@ -253,5 +253,8 @@
   <ItemGroup>
     <None Include="Resources\App Logo2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-text-background-region5.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -243,6 +243,16 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap map_text_background_region5 {
+            get {
+                object obj = ResourceManager.GetObject("map-text-background-region5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Maximalize___final {
             get {
                 object obj = ResourceManager.GetObject("Maximalize - final", resourceCulture);

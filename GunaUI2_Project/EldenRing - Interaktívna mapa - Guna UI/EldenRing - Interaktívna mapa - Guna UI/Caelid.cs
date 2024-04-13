@@ -22,7 +22,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             this.Controls.Add(guna2TabControl1);
 
             // Create Search tab
-            Guna2TabPage searchTab = new Guna2TabPage(); // Corrected mistake here
+            /*Guna2TabPage searchTab = new Guna2TabPage(); // Corrected mistake here
             searchTab.Text = "Search";
             guna2TabControl1.TabPages.Add(searchTab);
 
@@ -41,7 +41,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             searchTab.Controls.Add(searchButton);
 
             // Attach Click event handler for search button
-            searchButton.Click += SearchButton_Click;
+            searchButton.Click += SearchButton_Click;*/
         }
 
         private void SearchButton_Click(object sender, EventArgs e)
