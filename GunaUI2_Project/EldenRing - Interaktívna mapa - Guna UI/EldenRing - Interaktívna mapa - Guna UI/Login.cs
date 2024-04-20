@@ -25,7 +25,8 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private Point lastCursorPosition;
         bool IsValidEmail = false;
         const int _spacer = 9;
-        private MessagePopUp _message;
+        private MessageSuccess _Success;
+        private MessageError _Error;
 
         public Login()
         {
@@ -139,9 +140,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             if (username == null && password == null)
             {
                 //System.Windows.Forms.MessageBox.Show("Fill all blank boxes");
-                _message = new MessagePopUp();
-                _message.Show();
-                _message.ShowMessage("Fill all blank boxes");
+                _Error = new MessageError();
+                _Error.Show();
+                _Error.ShowMessage("Fill all blank boxes");
             }
             else 
             {
@@ -150,9 +151,9 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                     if (connectLogin.IsValueExistsLogin("users", "name", "password", username, password))
                     {
                         //System.Windows.Forms.MessageBox.Show("Login was successfull");
-                        _message = new MessagePopUp();
-                        _message.Show();
-                        _message.ShowMessage("Login was successfull");
+                        _Success = new MessageSuccess();
+                        _Success.Show();
+                        _Success.ShowMessage("Login was successfull");
                         this.Close();
                         //Main main = new Main();
                         //main.Show();
@@ -160,17 +161,17 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                     else
                     {
                         //System.Windows.Forms.MessageBox.Show("Password doesn't match your username");
-                        _message = new MessagePopUp();
-                        _message.Show();
-                        _message.ShowMessage("Password doesn't match your username");
+                        _Error = new MessageError();
+                        _Error.Show();
+                        _Error.ShowMessage("Password doesn't match your username");
                     }
                 }
                 else
                 {
                     //System.Windows.Forms.MessageBox.Show("Username doesn't exist");
-                    _message = new MessagePopUp();
-                    _message.Show();
-                    _message.ShowMessage("Username doesn't exist");
+                    _Error = new MessageError();
+                    _Error.Show();
+                    _Error.ShowMessage("Username doesn't exist");
                 }
             }
         }

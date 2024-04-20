@@ -123,6 +123,12 @@
       <DependentUpon>Caelid.cs</DependentUpon>
     </Compile>
     <Compile Include="conncectToMysql.cs" />
+    <Compile Include="MessageError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageError.Designer.cs">
+      <DependentUpon>MessageError.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,11 +142,11 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MessagePopUp.cs">
+    <Compile Include="MessageSuccess.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MessagePopUp.Designer.cs">
-      <DependentUpon>MessagePopUp.cs</DependentUpon>
+    <Compile Include="MessageSuccess.Designer.cs">
+      <DependentUpon>MessageSuccess.cs</DependentUpon>
     </Compile>
     <Compile Include="Register.cs">
       <SubType>Form</SubType>
@@ -156,8 +162,11 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MessagePopUp.resx">
-      <DependentUpon>MessagePopUp.cs</DependentUpon>
+    <EmbeddedResource Include="MessageError.resx">
+      <DependentUpon>MessageError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageSuccess.resx">
+      <DependentUpon>MessageSuccess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -261,6 +270,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\map-text-background-region5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-text-background-location.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

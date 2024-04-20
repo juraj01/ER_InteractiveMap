@@ -124,9 +124,6 @@
   <data name="Exit - final " type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Exit - final .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map-text-background-region" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\map-text-background-region.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Exit.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,8 +181,8 @@
   <data name="Maximalize - final" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maximalize - final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="overworld-compressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\overworld-compressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="map-text-background-region" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-text-background-region.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Nadpis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nadpis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -204,5 +201,11 @@
   </data>
   <data name="map-text-background-region5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\map-text-background-region5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="overworld-compressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\overworld-compressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map-text-background-location" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-text-background-location.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
