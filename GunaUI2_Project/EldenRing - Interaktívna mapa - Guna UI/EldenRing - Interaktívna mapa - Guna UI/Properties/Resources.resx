@@ -133,6 +133,9 @@
   <data name="Minimalize - final" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Minimalize - final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="map-text-background-location" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-text-background-location.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="elden-ring-pc-games-playstation-4-playstation-5-xbox-one-3840x5120-7712" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\elden-ring-pc-games-playstation-4-playstation-5-xbox-one-3840x5120-7712.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -205,7 +208,7 @@
   <data name="overworld-compressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\overworld-compressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map-text-background-location" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\map-text-background-location.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Overworld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Overworld.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

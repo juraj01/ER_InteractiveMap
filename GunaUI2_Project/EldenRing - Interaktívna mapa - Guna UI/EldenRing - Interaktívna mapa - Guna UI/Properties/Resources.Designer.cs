@@ -333,6 +333,16 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Overworld {
+            get {
+                object obj = ResourceManager.GetObject("Overworld", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap overworld_compressed {
             get {
                 object obj = ResourceManager.GetObject("overworld-compressed", resourceCulture);
