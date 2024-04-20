@@ -1,12 +1,10 @@
 
-
--- Create a table named 'Crumbling_Farum_Azula' to store the locations
-CREATE TABLE  Crumbling_Farum_Azula (
+CREATE TABLE Crumbling_Farum_Azula (
     id INTEGER PRIMARY KEY,
     location_name TEXT
 );
 
--- Insert the locations into the table
+
 INSERT INTO Crumbling_Farum_Azula (location_name) VALUES 
 ('Crumbling Beast Grave'),
 ('Crumbling Beast Grave Depths'),
@@ -19,3 +17,20 @@ INSERT INTO Crumbling_Farum_Azula (location_name) VALUES
 ('Beside the Great Bridge'),
 ('Dragonlord Placidusax'),
 ('Maliketh, the Black Blade');
+
+
+CREATE TABLE Crumbling_Farum_Azula_Bosses (
+    id INTEGER PRIMARY KEY,
+    boss_name TEXT,
+    boss_type TEXT,
+    location TEXT
+);
+
+
+INSERT INTO Crumbling_Farum_Azula_Bosses (boss_name, boss_type, location) VALUES 
+('Godskin Duo', 'Boss', 'Crumbling Farum Azula'),
+('Maliketh, the Black Blade', 'Boss', 'Crumbling Farum Azula'),
+('Dragonlord Placidusax', 'Boss', 'Crumbling Farum Azula'),
+('Alexander Iron Fist (Crumbling Farum Azula)', 'Boss', 'Crumbling Farum Azula'),
+('Beast Clergyman', 'Boss', 'Crumbling Farum Azula'),
+('Recusant Bernahl', 'Invasion', 'Crumbling Farum Azula');

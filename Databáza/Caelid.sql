@@ -1,11 +1,12 @@
-CREATE TABLE  Caelid_Locations (
+
+CREATE TABLE Caelid_Locations (
     id INTEGER PRIMARY KEY,
     location_name TEXT,
     category TEXT,
     subcategory TEXT
 );
 
--- Insert the locations into the table
+
 INSERT INTO Caelid_Locations (location_name, category, subcategory) VALUES 
 ('Smoldering Church', 'MAIN CAELID', 'Smoldering Church'),
 ('Rotview Balcony', 'MAIN CAELID', 'Rotview Balcony'),
@@ -48,3 +49,42 @@ INSERT INTO Caelid_Locations (location_name, category, subcategory) VALUES
 ('Divine Tower of Caelid: Center', 'GREYOLLS DRAGONBARROW', 'Divine Tower of Caelid: Center'),
 ('Divine Tower of Caelid: Basement', 'GREYOLLS DRAGONBARROW', 'Divine Tower of Caelid: Basement'),
 ('Isolated Divine Tower', 'GREYOLLS DRAGONBARROW', 'Isolated Divine Tower');
+
+
+CREATE TABLE Caelid_Bosses (
+    id INTEGER PRIMARY KEY,
+    boss_name TEXT,
+    boss_type TEXT,
+    location TEXT
+);
+
+
+INSERT INTO Caelid_Bosses (boss_name, boss_type, location) VALUES 
+('Decaying Ekzykes', 'Boss', 'Caelid'),
+('Flying Dragon Greyll', 'Boss', 'Caelid'),
+('Crucible Knight & Misbegotten Warrior', 'Boss', 'Caelid'),
+('Elder Dragon Greyol', 'Boss', 'Caelid'),
+('Night''s Cavalry', 'Boss', 'Caelid'),
+('Nox Swordstress & Nox Monk', 'Boss', 'Caelid'),
+('Putrid Avatar', 'Boss', 'Caelid'),
+('Putrid Avatar', 'Boss', 'Caelid'),
+('Night''s Cavalry', 'Boss', 'Caelid'),
+('Godskin Apostle', 'Boss', 'Caelid'),
+('Erdtree Burial Watchdog Duo', 'Boss', 'Caelid'),
+('Mad Pumpkin Heads (Hammer & Flail)', 'Boss', 'Caelid'),
+('Death Rite Bird', 'Boss', 'Caelid'),
+('Magma Wyrm', 'Boss', 'Caelid'),
+('Putrid Tree Spirit', 'Boss', 'Caelid'),
+('Battlemage Hugues', 'Boss', 'Caelid'),
+('Fallingstar Beast', 'Boss', 'Caelid'),
+('Beastman of Farum Azula', 'Boss', 'Caelid'),
+('The Three Crystalians', 'Boss', 'Caelid'),
+('Frenzied Duelist', 'Boss', 'Caelid'),
+('Cleanrot Knight (Spear) & Cleanrot Knight (Sickle)', 'Boss', 'Caelid'),
+('Cemetery Shade', 'Boss', 'Caelid'),
+('Black Blade Kindred', 'Great Boss', 'Caelid'),
+('Commander O''Neil', 'Great Boss', 'Caelid'),
+('Millicent', 'Invasion', 'Caelid'),
+('Bell Bearing Hunter (Isolated Merchant Shack)', 'Invasion', 'Caelid'),
+('Duelist Knight of the Great Jar x3', 'Invasion', 'Caelid'),
+('Starscourge Radahn', 'Legendary Boss', 'Caelid');

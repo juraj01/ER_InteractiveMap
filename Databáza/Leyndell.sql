@@ -1,9 +1,9 @@
-CREATE TABLE  Locations (
+CREATE TABLE Locations (
     id INTEGER PRIMARY KEY,
     location_name TEXT
 );
 
--- Insert the locations into the table
+
 INSERT INTO Locations (location_name) VALUES 
 ('Erdtree Sanctuary'),
 ('East Capital Rampart'),
@@ -19,3 +19,22 @@ INSERT INTO Locations (location_name) VALUES
 ('Leyndell Catacombs'),
 ('Frenzied Flame Proscription'),
 ('Cathedral of the Forsaken');
+
+-CREATE TABLE Bosses (
+    id INTEGER PRIMARY KEY,
+    boss_name TEXT,
+    boss_type TEXT,
+    location TEXT
+);
+
+INSERT INTO Bosses (boss_name, boss_type, location) VALUES 
+('Draconic Tree Sentinel', 'Boss', 'LEYNDELL'),
+('Fell Twins', 'Boss', 'LEYNDELL'),
+('Crucible Tree Knight', 'Boss', 'LEYNDELL'),
+('Erdtree Avatar', 'Great Boss', 'LEYNDELL'),
+('Ulcerated Tree Spirit', 'Boss', 'LEYNDELL'),
+('Black Knife Assassin', 'Boss', 'LEYNDELL'),
+('Godfrey, First Elden Lord (Golden Shade)', 'Legendary Boss', 'LEYNDELL'),
+('Morgott, the Omen King', 'Legendary Boss', 'LEYNDELL'),
+('Esgar, Priest of Blood', 'Boss', 'LEYNDELL'),
+('Mohg, the Omen', 'Great Boss', 'LEYNDELL');

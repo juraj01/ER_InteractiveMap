@@ -22,6 +22,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         private string password;
         private bool isDragging = false;
         private Point lastCursorPosition;
+        private MessagePopUp _message;
         public Register()
         {
             InitializeComponent();
@@ -108,13 +109,19 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
 
             if (username == null || password == null || confirmationPassword == null)
             {
-                System.Windows.Forms.MessageBox.Show("Fill all blank boxes");
+                //System.Windows.Forms.MessageBox.Show("Fill all blank boxes");
+                _message = new MessagePopUp();
+                _message.Show();
+                _message.ShowMessage("Fill all blank boxes");
             }
             else if (username != null && username.Length >= 4)
             {
                 if (connectRegister.IsValueExistsName("users", "name", username))
                 {
-                    System.Windows.Forms.MessageBox.Show("This username already exist");
+                    //System.Windows.Forms.MessageBox.Show("This username already exist");
+                    _message = new MessagePopUp();
+                    _message.Show();
+                    _message.ShowMessage("This username already exist");
                 }
                 else
                 {
@@ -125,28 +132,43 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                             if (password == confirmationPassword)
                             {
                                 connectRegister.InsertDataIntoUsers(username, password);
-                                System.Windows.Forms.MessageBox.Show("Registration was successfull");
+                                _message = new MessagePopUp();
+                                _message.Show();
+                                _message.ShowMessage("Registration was successfull");
+                                //System.Windows.Forms.MessageBox.Show("Registration was successfull");
                                 this.Close();
                             }
                             else
                             {
-                                System.Windows.Forms.MessageBox.Show("Your password and confirmation password don't match");
+                                //System.Windows.Forms.MessageBox.Show("Your password and confirmation password don't match");
+                                _message = new MessagePopUp();
+                                _message.Show();
+                                _message.ShowMessage("Your password and confirmation password don't match");
                             }
                         }
                         else
                         {
-                            System.Windows.Forms.MessageBox.Show("You forgot to enter your password or your password is less than 8 characters long");
+                            //System.Windows.Forms.MessageBox.Show("You forgot to enter your password or your password is less than 8 characters long");
+                            _message = new MessagePopUp();
+                            _message.Show();
+                            _message.ShowMessage("Password must be at least 8 characters long");
                         }
                     }
                     else
                     {
-                        System.Windows.Forms.MessageBox.Show("Username cannot contain special characters");
+                        //System.Windows.Forms.MessageBox.Show("Username cannot contain special characters");
+                        _message = new MessagePopUp();
+                        _message.Show();
+                        _message.ShowMessage("Username cannot contain special characters");
                     }
                 }
             }
             else
             {
-                System.Windows.Forms.MessageBox.Show("You forgot to enter your username or your username is less than 4 letters long");
+                //System.Windows.Forms.MessageBox.Show("You forgot to enter your username or your username is less than 4 letters long");
+                _message = new MessagePopUp();
+                _message.Show();
+                _message.ShowMessage("Username must be at least 4 letters long");
             }
             
         }

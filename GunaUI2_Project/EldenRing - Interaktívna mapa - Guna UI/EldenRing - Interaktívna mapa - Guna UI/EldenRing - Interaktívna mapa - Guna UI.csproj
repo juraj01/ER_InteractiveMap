@@ -123,6 +123,12 @@
       <DependentUpon>Caelid.cs</DependentUpon>
     </Compile>
     <Compile Include="conncectToMysql.cs" />
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="guna2TextBox1.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>

@@ -73,19 +73,25 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
         internal void ShowMessage(string message)
         {
             this.MessageLabel.Text = message;
-            this.ShowDialog();
+            this.Visible = true;
+            //this.ShowDialog();
         }
 
        
         
         private void MessagePopUp_Load(object sender, EventArgs e)
         {
-           PrivateFontCollection pfc = new PrivateFontCollection();
-            pfc.AddFontFile("E:CustomFont.ttf");
-            foreach (Control C in this.Controls)
-            {
-                C.Font = new Font(pfc.Families[0], 15, FontStyle.Regular);
-            }
+            /*PrivateFontCollection pfc = new PrivateFontCollection();
+             //pfc.AddFontFile("E:CustomFont.ttf");
+             foreach (Control C in this.Controls)
+             {
+                 C.Font = new Font(pfc.Families[0], 15, FontStyle.Regular);
+             }*/
+            int labelTop = (this.Height - MessageLabel.Height) / 2;
+            MessageLabel.Top = labelTop;
+            int labelLeft = (this.Width - MessageLabel.Width) / 2;
+            MessageLabel.Left = labelLeft;
+
         }
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)

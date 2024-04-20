@@ -34,7 +34,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             InitializeEventHandlers();
 
             PasswordTextBox.UseSystemPasswordChar = true;
-            _message = new MessagePopUp();
+            //_message = new MessagePopUp();
         }
 
         private void InitializeFormSettings()
@@ -139,16 +139,18 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
             if (username == null && password == null)
             {
                 //System.Windows.Forms.MessageBox.Show("Fill all blank boxes");
+                _message = new MessagePopUp();
                 _message.Show();
                 _message.ShowMessage("Fill all blank boxes");
             }
             else 
             {
-                if (connectLogin.IsValueExistsName("users", "name", username))
+                if (username != null && connectLogin.IsValueExistsName("users", "name", username))
                 {
                     if (connectLogin.IsValueExistsLogin("users", "name", "password", username, password))
                     {
                         //System.Windows.Forms.MessageBox.Show("Login was successfull");
+                        _message = new MessagePopUp();
                         _message.Show();
                         _message.ShowMessage("Login was successfull");
                         this.Close();
@@ -158,6 +160,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                     else
                     {
                         //System.Windows.Forms.MessageBox.Show("Password doesn't match your username");
+                        _message = new MessagePopUp();
                         _message.Show();
                         _message.ShowMessage("Password doesn't match your username");
                     }
@@ -165,6 +168,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                 else
                 {
                     //System.Windows.Forms.MessageBox.Show("Username doesn't exist");
+                    _message = new MessagePopUp();
                     _message.Show();
                     _message.ShowMessage("Username doesn't exist");
                 }

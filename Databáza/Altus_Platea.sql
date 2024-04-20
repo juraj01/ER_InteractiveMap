@@ -1,9 +1,16 @@
-CREATE TABLE  Locations (
+CREATE TABLE Locations (
     id INTEGER PRIMARY KEY,
     location_name TEXT
 );
 
--- Insert the locations into the table
+CREATE TABLE Bosses (
+    id INTEGER PRIMARY KEY,
+    boss_name TEXT,
+    boss_type TEXT,
+    location TEXT
+);
+
+
 INSERT INTO Locations (location_name) VALUES 
 ('Abandoned Coffin'),
 ('Erdtree-Gazing Hill'),
@@ -46,3 +53,68 @@ INSERT INTO Locations (location_name) VALUES
 ('Sealed Tunnel'),
 ('Divine Tower of West Altus: Gate'),
 ('Divine Tower of West Altus');
+
+
+INSERT INTO Bosses (boss_name, boss_type, location) VALUES 
+('Godskin Apostle', 'Boss', 'Altus Plateau'),
+('Necromancer Garris', 'Boss', 'Altus Plateau'),
+('Black Knife Assassin', 'Boss', 'Altus Plateau'),
+('Maleigh Marais, Shaded Castle Castellan', 'Boss', 'Altus Plateau'),
+('Grave Warden Duelist', 'Boss', 'Altus Plateau'),
+('Ulcerated Tree Spirit', 'Boss', 'Altus Plateau'),
+('Fell Twin x 2', 'Boss', 'Altus Plateau'),
+('Draconic Tree Sentinel', 'Boss', 'Altus Plateau'),
+('Deathbird', 'Boss', 'Altus Plateau'),
+('Wormface', 'Boss', 'Altus Plateau'),
+('Elemer of the Briar', 'Boss', 'Altus Plateau'),
+('Full-Grown Fallingstar Beast', 'Boss', 'Altus Plateau'),
+('Demi-Human Queen Margot', 'Boss', 'Altus Plateau'),
+('Magma Wyrm', 'Boss', 'Altus Plateau'),
+('Perfumer Tricia & Misbegotten Warrior', 'Boss', 'Altus Plateau'),
+('Crucible Knight & Crucible Knight Ordovis', 'Boss', 'Altus Plateau'),
+('Tibia Mariner', 'Boss', 'Altus Plateau'),
+('Demi-Human Queen Gilika', 'Boss', 'Altus Plateau'),
+('Fallingstar Beast', 'Boss', 'Altus Plateau'),
+('Ulcerated Tree Spirit', 'Boss', 'Altus Plateau'),
+('Godefroy the Grafted', 'Boss', 'Altus Plateau'),
+('Sanguine Noble', 'Boss', 'Altus Plateau'),
+('Black Knife Assassin', 'Boss', 'Altus Plateau'),
+('Ulcerated Tree Spirit', 'Boss', 'Altus Plateau'),
+('Demi-Human Queen Maggie', 'Boss', 'Altus Plateau'),
+('Night''s Cavalry', 'Boss', 'Altus Plateau'),
+('Margit, The Fell Omen (Leyndell)', 'Boss', 'Altus Plateau'),
+('Crystalian Spear & Crystalian Ringblade', 'Boss', 'Altus Plateau'),
+('Red Wolf of the Champion', 'Boss', 'Altus Plateau'),
+('Onyx Lord', 'Boss', 'Altus Plateau'),
+('Godskin Noble', 'Boss', 'Altus Plateau'),
+('Stonedigger Troll', 'Boss', 'Altus Plateau'),
+('Ancient Dragon Lansseax', 'Boss', 'Altus Plateau'),
+('Kindred Rot x2', 'Boss', 'Altus Plateau'),
+('Erdtree Burial Watchdog', 'Boss', 'Altus Plateau'),
+('Abductor Virgins x2', 'Boss', 'Altus Plateau'),
+('Night''s Cavalry', 'Boss', 'Altus Plateau'),
+('Omenkiller', 'Boss', 'Altus Plateau'),
+('Miranda, the Blighted Bloom & Omenkiller', 'Boss', 'Altus Plateau'),
+('Prelate', 'Boss', 'Altus Plateau'),
+('Ancient Hero of Zamor', 'Boss', 'Altus Plateau'),
+('Esgar, Priest of Blood', 'Boss', 'Altus Plateau'),
+('Sir Gideon Ofnir, the All-Knowing', 'Boss', 'Altus Plateau'),
+('Hoarah Loux, Warrior', 'Boss', 'Altus Plateau'),
+('Ancient Dragon Lansseax', 'Great Boss', 'Altus Plateau'),
+('Erdtree Avatar', 'Great Boss', 'Altus Plateau'),
+('Mohg, the Omen', 'Great Boss', 'Altus Plateau'),
+('Anastasia, Tarnished-Eater', 'Invasion', 'Altus Plateau'),
+('Eleonora, Violet Bloody Finger', 'Invasion', 'Altus Plateau'),
+('Vargram, the Raging Wolf', 'Invasion', 'Altus Plateau'),
+('Inquisitor Ghiza', 'Invasion', 'Altus Plateau'),
+('Crucible Knight', 'Invasion', 'Altus Plateau'),
+('Dung Eater', 'Invasion', 'Altus Plateau'),
+('Bell Bearing Hunter (Hermit Merchant Shack)', 'Invasion', 'Altus Plateau'),
+('Rileigh the Idle', 'Invasion', 'Altus Plateau'),
+('Tanith''s Crucible Knight', 'Invasion', 'Altus Plateau'),
+('Magnus the Beast Claw', 'Invasion', 'Altus Plateau'),
+('Morgott, the Omen King', 'Legendary Boss', 'Altus Plateau'),
+('Rykard, Lord of Blasphemy', 'Legendary Boss', 'Altus Plateau'),
+('Godfrey, First Elden Lord', 'Legendary Boss', 'Altus Plateau'),
+('Radagon of the Golden Order', 'Legendary Boss', 'Altus Plateau'),
+('Elden Beast', 'Legendary Boss', 'Altus Plateau');
