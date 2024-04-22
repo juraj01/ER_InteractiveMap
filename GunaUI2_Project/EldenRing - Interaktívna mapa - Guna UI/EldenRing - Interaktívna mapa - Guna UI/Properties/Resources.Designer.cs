@@ -323,6 +323,16 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Miquella_s_Haligtree_Main {
+            get {
+                object obj = ResourceManager.GetObject("Miquella\'s Haligtree Main", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Nadpis {
             get {
                 object obj = ResourceManager.GetObject("Nadpis", resourceCulture);

@@ -155,6 +155,7 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI
                         _Success.Show();
                         _Success.ShowMessage("Login was successfull");
                         this.Close();
+                        //MainMenu.Show();
                         //Main main = new Main();
                         //main.Show();
                     }
