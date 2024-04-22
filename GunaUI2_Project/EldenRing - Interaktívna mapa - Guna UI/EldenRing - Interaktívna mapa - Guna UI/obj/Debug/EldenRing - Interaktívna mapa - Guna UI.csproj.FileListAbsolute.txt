@@ -336,9 +336,11 @@ Z:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\El
 Z:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.exe
 Z:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing - Interaktívna mapa - Guna UI.pdb
 D:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.MessagePopUp.resources
-E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.MessagePopUp.resources
 E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.Caelid.resources
 D:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.Caelid.resources
 C:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.Caelid.resources
 C:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.MessageError.resources
 C:\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.MessageSuccess.resources
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.MainMenu.resources
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.MessageError.resources
+E:\ER_InteractiveMap\ER_InteractiveMap\GunaUI2_Project\EldenRing - Interaktívna mapa - Guna UI\EldenRing - Interaktívna mapa - Guna UI\obj\Debug\EldenRing___Interaktívna_mapa___Guna_UI.MessageSuccess.resources
