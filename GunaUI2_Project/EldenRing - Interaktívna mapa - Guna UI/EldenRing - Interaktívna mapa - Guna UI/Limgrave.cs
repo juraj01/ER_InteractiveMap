@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EldenRing___Interaktívna_mapa___Guna_UI
 {
-    public partial class Form1 : Form
+    public partial class Limgrave : Form
     {
-        public Form1()
+        public Limgrave()
         {
             InitializeComponent();
         }

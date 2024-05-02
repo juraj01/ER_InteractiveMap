@@ -123,6 +123,24 @@
       <DependentUpon>Caelid.cs</DependentUpon>
     </Compile>
     <Compile Include="conncectToMysql.cs" />
+    <Compile Include="Leyndel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leyndel.Designer.cs">
+      <DependentUpon>Leyndel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Underworld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Underworld.Designer.cs">
+      <DependentUpon>Underworld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Limgrave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Limgrave.Designer.cs">
+      <DependentUpon>Limgrave.cs</DependentUpon>
+    </Compile>
     <Compile Include="MessageError.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,6 +177,12 @@
     <EmbeddedResource Include="Caelid.resx">
       <DependentUpon>Caelid.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Leyndel.resx">
+      <DependentUpon>Leyndel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Limgrave.resx">
+      <DependentUpon>Limgrave.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -183,6 +207,9 @@
     </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Underworld.resx">
+      <DependentUpon>Underworld.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Mantinia Regular.otf" />
     <None Include="packages.config" />
