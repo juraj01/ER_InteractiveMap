@@ -280,5 +280,8 @@
   <ItemGroup>
     <None Include="Resources\Miquella%27s Haligtree Main.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main nadpis1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

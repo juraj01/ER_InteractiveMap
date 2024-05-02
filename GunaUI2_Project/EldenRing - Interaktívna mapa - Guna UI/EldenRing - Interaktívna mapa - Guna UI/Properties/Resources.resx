@@ -139,9 +139,6 @@
   <data name="elden-ring-pc-games-playstation-4-playstation-5-xbox-one-3840x5120-7712" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\elden-ring-pc-games-playstation-4-playstation-5-xbox-one-3840x5120-7712.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Overworld" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Overworld.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="stiahnuť" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stiahnuť.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,8 +175,8 @@
   <data name="Exit " type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Exit .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map-text-background-region4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\map-text-background-region4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Overworld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Overworld.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="map-text-background-region1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\map-text-background-region1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,6 +190,9 @@
   <data name="Nadpis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nadpis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Miquella's Haligtree Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miquella's Haligtree Main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="App Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -205,13 +205,16 @@
   <data name="LoginRegister Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LoginRegister Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="map-text-background-region4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-text-background-region4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="map-text-background-region5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\map-text-background-region5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="overworld-compressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\overworld-compressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Miquella's Haligtree Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Miquella's Haligtree Main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Main nadpis1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main nadpis1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

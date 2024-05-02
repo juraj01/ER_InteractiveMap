@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.UpperBorderPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.ExitButton = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.MiquellasButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
@@ -44,7 +44,6 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1.SuspendLayout();
             this.UpperBorderPanel.SuspendLayout();
             this.SuspendLayout();
@@ -53,8 +52,8 @@
             // 
             this.guna2Panel1.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.overworld_compressed;
             this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2Panel1.Controls.Add(this.guna2CustomGradientPanel1);
             this.guna2Panel1.Controls.Add(this.UpperBorderPanel);
-            this.guna2Panel1.Controls.Add(this.MiquellasButton);
             this.guna2Panel1.Controls.Add(this.guna2Button10);
             this.guna2Panel1.Controls.Add(this.guna2Button9);
             this.guna2Panel1.Controls.Add(this.guna2Button8);
@@ -65,12 +64,25 @@
             this.guna2Panel1.Controls.Add(this.guna2Button3);
             this.guna2Panel1.Controls.Add(this.guna2Button2);
             this.guna2Panel1.Controls.Add(this.guna2Button1);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(925, 708);
             this.guna2Panel1.TabIndex = 0;
+            // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel1.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Main_nadpis1;
+            this.guna2CustomGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(3, 36);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(255, 100);
+            this.guna2CustomGradientPanel1.TabIndex = 13;
             // 
             // UpperBorderPanel
             // 
@@ -130,26 +142,6 @@
             this.ExitButton.Size = new System.Drawing.Size(45, 29);
             this.ExitButton.TabIndex = 13;
             // 
-            // MiquellasButton
-            // 
-            this.MiquellasButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MiquellasButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.MiquellasButton.BackgroundImage = global::EldenRing___Interaktívna_mapa___Guna_UI.Properties.Resources.Miquella_s_Haligtree_Main;
-            this.MiquellasButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.MiquellasButton.BorderColor = System.Drawing.Color.Transparent;
-            this.MiquellasButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.MiquellasButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.MiquellasButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.MiquellasButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.MiquellasButton.FillColor = System.Drawing.Color.Transparent;
-            this.MiquellasButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.MiquellasButton.ForeColor = System.Drawing.Color.White;
-            this.MiquellasButton.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.MiquellasButton.Location = new System.Drawing.Point(489, 26);
-            this.MiquellasButton.Name = "MiquellasButton";
-            this.MiquellasButton.Size = new System.Drawing.Size(110, 87);
-            this.MiquellasButton.TabIndex = 11;
-            // 
             // guna2Button10
             // 
             this.guna2Button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -180,7 +172,7 @@
             this.guna2Button9.ForeColor = System.Drawing.Color.Black;
             this.guna2Button9.Location = new System.Drawing.Point(199, 212);
             this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(76, 36);
+            this.guna2Button9.Size = new System.Drawing.Size(92, 36);
             this.guna2Button9.TabIndex = 9;
             this.guna2Button9.Text = "Volcano Manor";
             // 
@@ -195,7 +187,7 @@
             this.guna2Button8.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button8.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button8.Location = new System.Drawing.Point(581, 26);
+            this.guna2Button8.Location = new System.Drawing.Point(480, 50);
             this.guna2Button8.Name = "guna2Button8";
             this.guna2Button8.Size = new System.Drawing.Size(113, 37);
             this.guna2Button8.TabIndex = 8;
@@ -285,7 +277,7 @@
             this.guna2Button3.ForeColor = System.Drawing.Color.Black;
             this.guna2Button3.Location = new System.Drawing.Point(267, 141);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(99, 28);
+            this.guna2Button3.Size = new System.Drawing.Size(115, 28);
             this.guna2Button3.TabIndex = 3;
             this.guna2Button3.Text = "Altus Platea";
             // 
@@ -302,7 +294,7 @@
             this.guna2Button2.ForeColor = System.Drawing.Color.Black;
             this.guna2Button2.Location = new System.Drawing.Point(240, 532);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(84, 22);
+            this.guna2Button2.Size = new System.Drawing.Size(94, 22);
             this.guna2Button2.TabIndex = 2;
             this.guna2Button2.Text = "Limgrave";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -325,18 +317,6 @@
             this.guna2Button1.Text = "Caelid";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(92, 36);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(130, 31);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "Main Menu";
-            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
-            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -349,7 +329,6 @@
             this.Name = "MainMenu";
             this.Text = "Form1";
             this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
             this.UpperBorderPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -359,7 +338,6 @@
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
@@ -369,10 +347,10 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
         private Guna.UI2.WinForms.Guna2Button guna2Button10;
-        private Guna.UI2.WinForms.Guna2Button MiquellasButton;
         private Guna.UI2.WinForms.Guna2ControlBox ExitButton;
         private Guna.UI2.WinForms.Guna2Panel UpperBorderPanel;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
     }
 }

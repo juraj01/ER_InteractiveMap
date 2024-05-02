@@ -193,6 +193,16 @@ namespace EldenRing___Interaktívna_mapa___Guna_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Main_nadpis1 {
+            get {
+                object obj = ResourceManager.GetObject("Main nadpis1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap map_text_background_location {
             get {
                 object obj = ResourceManager.GetObject("map-text-background-location", resourceCulture);
